@@ -1,6 +1,12 @@
 <script setup lang="ts">
 // @ts-ignore
 import Background from './components/Background.vue';
+import Nav from './components/Nav.vue';
+import About from './components/About.vue';
+import Projects from './components/Projects.vue';
+import Resume from './components/Resume.vue';
+import Contact from './components/Contact.vue';
+import Footer from './components/Footer.vue';
 
 
 </script>
@@ -9,12 +15,12 @@ import Background from './components/Background.vue';
   <div id="app">
     <Background />
     <div class="componentDiv">
-      <h1>component nav</h1>
-      <h1>component about</h1>
-      <h1>component porjects</h1>
-      <h1>component resume</h1>
-      <h1>component contact</h1>
-      <h1>component footer</h1>
+      <Nav />
+      <About />
+      <Projects />
+      <Resume />
+      <Contact />
+      <Footer />
     </div>
   </div>
 </template>
