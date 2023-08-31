@@ -21,7 +21,7 @@ const projects: Project[] = [
 </script>
 
 <template>
-  <div>
+  <div class="mainProjDiv">
     <h1>Projects</h1>
     <div v-for="project in projects" :key="project.title" class="">
       <div class="projectDiv">
@@ -41,4 +41,9 @@ const projects: Project[] = [
 </template>
 
 <style scoped>
+
+.mainProjDiv {
+  border: 2px solid darkgoldenrod;
+}
+
 </style>
