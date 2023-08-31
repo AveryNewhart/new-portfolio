@@ -16,10 +16,18 @@ import Footer from './components/Footer.vue';
     <Background />
     <div class="componentDiv">
       <Nav />
-      <About />
-      <Projects />
-      <Resume />
-      <Contact />
+      <div class="aboutDiv">
+        <About />
+      </div>
+      <div class="projectDiv">
+        <Projects />
+      </div>
+      <div class="resumeDiv">  
+        <Resume />
+      </div>
+      <div class="contactDiv">  
+        <Contact />
+      </div>
       <Footer />
     </div>
   </div>
@@ -27,11 +35,9 @@ import Footer from './components/Footer.vue';
 
 <style scoped>
 
-h1 {
-  text-align: center;
-  font-size: 25px;
-  font-weight: bold;
+.projectDiv {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
 
 </style>
