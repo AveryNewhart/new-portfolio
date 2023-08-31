@@ -4,6 +4,8 @@
 <template>
   <div class="mainResDiv">
     <h1>Resume</h1>
+    <p>make this more of a skills section</p>
+    <p>then ofcourse have my resume available to download</p>
   </div>
 </template>
 
