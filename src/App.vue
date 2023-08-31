@@ -28,7 +28,9 @@ import Footer from './components/Footer.vue';
       <div class="contactDiv">  
         <Contact />
       </div>
-      <Footer />
+      <div class="fixed bottom-0 left-0 w-full">
+        <Footer />
+      </div>
     </div>
   </div>
 </template>
