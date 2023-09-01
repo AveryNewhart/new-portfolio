@@ -17,16 +17,16 @@ import Footer from './components/Footer.vue';
     <div class="componentDiv">
       <Nav />
       <h2 class="bold text-white">make it so page snaps to whichever section the user is looking at.</h2>
-      <div class="aboutDiv">
+      <div class="section aboutDiv">
         <About />
       </div>
-      <div class="projectDiv">
+      <div class="section projectDiv">
         <Projects />
       </div>
-      <div class="resumeDiv">  
+      <div class="section resumeDiv">  
         <Resume />
       </div>
-      <div class="contactDiv">  
+      <div class="section contactDiv">  
         <Contact />
       </div>
       <div class="fixed bottom-0 left-0 w-full">
@@ -41,6 +41,10 @@ import Footer from './components/Footer.vue';
 .projectDiv {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.section {
+  min-height: 1000px;
 }
 
 </style>
