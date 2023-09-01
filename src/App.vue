@@ -44,7 +44,7 @@ import Footer from './components/Footer.vue';
 }
 
 .section {
-  min-height: 1000px;
+  min-height: 100vh;
 }
 
 </style>

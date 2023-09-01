@@ -1,16 +1,39 @@
 <template>
-    <div class="background">
+    <div class="background" ref="background">
       <div class="wave"></div>
       <div class="wave"></div>
       <div class="wave"></div>
     </div>
   </template>
   
-  <script>
-  export default {
-    name: 'BackgroundComponent'
-  };
-  </script>
+<script lang="ts">
+export default {
+  name: 'BackgroundComponent',
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      // Calculate the scroll position relative to section heights
+      const scrollPosition = window.scrollY;
+      const sectionHeight = window.innerHeight;
+
+      // Calculate the background position based on the scroll position
+      const backgroundPosition = (scrollPosition % sectionHeight) / sectionHeight;
+
+      // Apply the background position
+      if (this.$refs.background) {
+        (this.$refs.background as HTMLElement).style.backgroundPositionY = `${
+          backgroundPosition * 100
+        }%`;
+      }
+    },
+  },
+};
+</script>
   
   <style scoped>
   .background {

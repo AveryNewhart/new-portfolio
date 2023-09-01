@@ -14,6 +14,12 @@
         <li>
             <a href="#" class="hover:underline">Contact</a>
         </li>
+        <li>
+            <a href="#" class="hover:underline">Projects</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline">Resume</a>
+        </li>
       </ul>
       </div>
     </footer>
