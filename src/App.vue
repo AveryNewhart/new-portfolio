@@ -16,6 +16,7 @@ import Footer from './components/Footer.vue';
     <Background />
     <div class="componentDiv">
       <Nav />
+      <h2 class="bold text-white">make it so page snaps to whichever section the user is looking at.</h2>
       <div class="aboutDiv">
         <About />
       </div>
