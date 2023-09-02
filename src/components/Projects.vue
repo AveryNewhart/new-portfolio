@@ -199,62 +199,68 @@ const fullstacks: Fullstack[] = [
 
 <template>
   <div class="mainProjDiv">
-    <h1>Projects</h1>
-    <p>for projects i want to make it into three seperate sections, frontend, backend, and fullstack</p>
+  <h1 class="text-center">Projects</h1>
 
-    <div class="bigBody">
-      <h3>Frontend</h3>
-    <input type="radio" name="position" v-for="(frontend, index) in frontends" :key="frontend.title" :id="'position-' + index" @click="updatePosition(index)" />
-    <main id="carousel">
-      <div class="item" v-for="(frontend, index) in frontends" :key="frontend.title" :class="{ active: index === currentPosition }">
-        <div class="projectDiv">
-          <div class="projectContent">
-            <div class="">{{ frontend.title }}</div>
-            <img :src="`/new-portfolio${frontend.image}`" alt="Project Image" class="" />
-            <p class="">Languages Used: <span class="">{{ frontend.language }}</span></p>
-            <p class="">Description: <span class="">{{ frontend.about }}</span></p>
-            <a :href="frontend.repo" class="" target="_blank">Github Repo</a>
+  <div class="mainProjectDivs">
+    <h3>Frontend</h3>
+      <div class="bigBody">
+        <input type="radio" name="position" v-for="(frontend, index) in frontends" :key="frontend.title" :id="'position-' + index" @click="updatePosition(index)" />
+        <main id="carousel">
+          <div class="item" v-for="(frontend, index) in frontends" :key="frontend.title" :class="{ active: index === currentPosition }">
+            <div class="projectDiv">
+              <div class="projectContent">
+                <div class="">{{ frontend.title }}</div>
+                <img :src="`/new-portfolio${frontend.image}`" alt="Project Image" class="" />
+                <p class="">Languages Used: <span class="">{{ frontend.language }}</span></p>
+                <p class="">Description: <span class="">{{ frontend.about }}</span></p>
+                <a :href="frontend.repo" class="" target="_blank">Github Repo</a>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </main>
+        </main>
+    </div>
   </div>
 
-  <div class="bigBody">
+  <div class="mainProjectDivs">
       <h3>Backend</h3>
-    <input type="radio" name="position" v-for="(backend, index) in backends" :key="backend.title" :id="'position-' + index" @click="updatePosition(index)" />
-    <main id="carousel">
-      <div class="item" v-for="(backend, index) in backends" :key="backend.title" :class="{ active: index === currentPosition }">
-        <div class="projectDiv">
-          <div class="projectContent">
-            <div class="">{{ backend.title }}</div>
-            <img :src="`/new-portfolio${backend.image}`" alt="Project Image" class="" />
-            <p class="">Languages Used: <span class="">{{ backend.language }}</span></p>
-            <p class="">Description: <span class="">{{ backend.about }}</span></p>
-            <a :href="backend.repo" class="" target="_blank">Github Repo</a>
+     <div class="bigBody">
+      <input type="radio" name="position" v-for="(backend, index) in backends" :key="backend.title" :id="'position-' + index" @click="updatePosition(index)" />
+      <main id="carousel">
+        <div class="item" v-for="(backend, index) in backends" :key="backend.title" :class="{ active: index === currentPosition }">
+          <div class="projectDiv">
+            <div class="projectContent">
+              <div class="">{{ backend.title }}</div>
+              <img :src="`/new-portfolio${backend.image}`" alt="Project Image" class="" />
+              <p class="">Languages Used: <span class="">{{ backend.language }}</span></p>
+              <p class="">Description: <span class="">{{ backend.about }}</span></p>
+              <a :href="backend.repo" class="" target="_blank">Github Repo</a>
+            </div>
           </div>
         </div>
-      </div>
-    </main>
+      </main>
+    </div>
   </div>
 
-  <div class="bigBody">
+  <div class="mainProjectDivs">
       <h3>Fullstack</h3>
-    <input type="radio" name="position" v-for="(fullstack, index) in fullstacks" :key="fullstack.title" :id="'position-' + index" @click="updatePosition(index)" />
-    <main id="carousel">
-      <div class="item" v-for="(fullstack, index) in fullstacks" :key="fullstack.title" :class="{ active: index === currentPosition }">
-        <div class="projectDiv">
-          <div class="projectContent">
-            <div class="">{{ fullstack.title }}</div>
-            <img :src="`/new-portfolio${fullstack.image}`" alt="Project Image" class="" />
-            <p class="">Languages Used: <span class="">{{ fullstack.language }}</span></p>
-            <p class="">Description: <span class="">{{ fullstack.about }}</span></p>
-            <a :href="fullstack.repo" class="" target="_blank">Github Repo</a>
+    <div class="bigBody">
+      <input type="radio" name="position" v-for="(fullstack, index) in fullstacks" :key="fullstack.title" :id="'position-' + index" @click="updatePosition(index)" />
+      <main id="carousel">
+        <div class="item" v-for="(fullstack, index) in fullstacks" :key="fullstack.title" :class="{ active: index === currentPosition }">
+          <div class="projectDiv">
+            <div class="projectContent">
+              <div class="">{{ fullstack.title }}</div>
+              <img :src="`/new-portfolio${fullstack.image}`" alt="Project Image" class="" />
+              <p class="">Languages Used: <span class="">{{ fullstack.language }}</span></p>
+              <p class="">Description: <span class="">{{ fullstack.about }}</span></p>
+              <a :href="fullstack.repo" class="" target="_blank">Github Repo</a>
+            </div>
           </div>
         </div>
-      </div>
-    </main>
+      </main>
+    </div>
   </div>
+  
   </div>
 </template>
 
@@ -264,8 +270,13 @@ const fullstacks: Fullstack[] = [
   border: 2px solid darkgoldenrod;
 }
 
+.mainProjectDivs {
+  margin-top: 25px;
+}
+
 h3 {
   border: 1px dashed white;
+  text-align: center;
 }
 
 img {
