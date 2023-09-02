@@ -201,8 +201,7 @@ const fullstacks: Fullstack[] = [
             <div class="">
                 {{ frontend.title }}
             </div>
-          <!-- <img :src="`/new-portfolio${frontend.image}`" alt="Project Image" class="" /> -->
-          <p> image is gonna be here, uncomment code {{ frontend.image }}</p>
+          <img :src="`/new-portfolio${frontend.image}`" alt="Project Image" class="" />
           <p class="">Languages Used:  <span class="">{{ frontend.language }}</span></p>
           <p class="">Description: <span class="">{{ frontend.about }}</span></p>
           <a :href="frontend.repo" class="" target="_blank">Github Repo</a>
@@ -219,8 +218,7 @@ const fullstacks: Fullstack[] = [
             <div class="">
                 {{ backend.title }}
             </div>
-          <!-- <img :src="`/new-portfolio${project.image}`" alt="Project Image" class="" /> -->
-          <p> image is gonna be here, uncomment code {{ backend.image }}</p>
+          <img :src="`/new-portfolio${backend.image}`" alt="Project Image" class="" />
           <p class="">Languages Used:  <span class="">{{ backend.language }}</span></p>
           <p class="">Description: <span class="">{{ backend.about }}</span></p>
           <a :href="backend.repo" class="" target="_blank">Github Repo</a>
@@ -236,8 +234,7 @@ const fullstacks: Fullstack[] = [
             <div class="">
                 {{ fullstack.title }}
             </div>
-          <!-- <img :src="`/new-portfolio${project.image}`" alt="Project Image" class="" /> -->
-          <p> image is gonna be here, uncomment code {{ fullstack.image }}</p>
+          <img :src="`/new-portfolio${fullstack.image}`" alt="Project Image" class="" />
           <p class="">Languages Used:  <span class="">{{ fullstack.language }}</span></p>
           <p class="">Description: <span class="">{{ fullstack.about }}</span></p>
           <a :href="fullstack.repo" class="" target="_blank">Github Repo</a>
@@ -256,6 +253,11 @@ const fullstacks: Fullstack[] = [
 
 h3 {
   border: 1px dashed white;
+}
+
+img {
+  height: 250px;
+  width: 250px;
 }
 
 </style>
