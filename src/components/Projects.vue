@@ -1,5 +1,7 @@
 <script setup lang="ts">
 
+import { ref } from 'vue';
+
 interface Frontend {
     title: string;
     image: string;
@@ -102,6 +104,12 @@ const frontends: Frontend[] = [
     },
 ];
 
+const currentPosition = ref(0);
+
+const updatePosition = (index: number) => {
+  currentPosition.value = index;
+};
+
 interface Backend {
     title: string;
     image: string;
@@ -193,55 +201,60 @@ const fullstacks: Fullstack[] = [
   <div class="mainProjDiv">
     <h1>Projects</h1>
     <p>for projects i want to make it into three seperate sections, frontend, backend, and fullstack</p>
-    <div>
+
+    <div class="bigBody">
       <h3>Frontend</h3>
-    <div v-for="frontend in frontends" :key="frontend.title" class="">
-      <div class="projectDiv">
-        <div class="projectContent">
-            <div class="">
-                {{ frontend.title }}
-            </div>
-          <img :src="`/new-portfolio${frontend.image}`" alt="Project Image" class="" />
-          <p class="">Languages Used:  <span class="">{{ frontend.language }}</span></p>
-          <p class="">Description: <span class="">{{ frontend.about }}</span></p>
-          <a :href="frontend.repo" class="" target="_blank">Github Repo</a>
+    <input type="radio" name="position" v-for="(frontend, index) in frontends" :key="frontend.title" :id="'position-' + index" @click="updatePosition(index)" />
+    <main id="carousel">
+      <div class="item" v-for="(frontend, index) in frontends" :key="frontend.title" :class="{ active: index === currentPosition }">
+        <div class="projectDiv">
+          <div class="projectContent">
+            <div class="">{{ frontend.title }}</div>
+            <img :src="`/new-portfolio${frontend.image}`" alt="Project Image" class="" />
+            <p class="">Languages Used: <span class="">{{ frontend.language }}</span></p>
+            <p class="">Description: <span class="">{{ frontend.about }}</span></p>
+            <a :href="frontend.repo" class="" target="_blank">Github Repo</a>
+          </div>
         </div>
       </div>
-    </div>
-    </div>
-    <div>
+    </main>
+  </div>
+
+  <div class="bigBody">
       <h3>Backend</h3>
-      <p>for this section, make the image clickable and take you to the video demo</p>
-    <div v-for="backend in backends" :key="backend.title" class="">
-      <div class="projectDiv">
-        <div class="projectContent">
-            <div class="">
-                {{ backend.title }}
-            </div>
-          <img :src="`/new-portfolio${backend.image}`" alt="Project Image" class="" />
-          <p class="">Languages Used:  <span class="">{{ backend.language }}</span></p>
-          <p class="">Description: <span class="">{{ backend.about }}</span></p>
-          <a :href="backend.repo" class="" target="_blank">Github Repo</a>
+    <input type="radio" name="position" v-for="(backend, index) in backends" :key="backend.title" :id="'position-' + index" @click="updatePosition(index)" />
+    <main id="carousel">
+      <div class="item" v-for="(backend, index) in backends" :key="backend.title" :class="{ active: index === currentPosition }">
+        <div class="projectDiv">
+          <div class="projectContent">
+            <div class="">{{ backend.title }}</div>
+            <img :src="`/new-portfolio${backend.image}`" alt="Project Image" class="" />
+            <p class="">Languages Used: <span class="">{{ backend.language }}</span></p>
+            <p class="">Description: <span class="">{{ backend.about }}</span></p>
+            <a :href="backend.repo" class="" target="_blank">Github Repo</a>
+          </div>
         </div>
       </div>
-    </div>
-    </div>
-    <div>
+    </main>
+  </div>
+
+  <div class="bigBody">
       <h3>Fullstack</h3>
-    <div v-for="fullstack in fullstacks" :key="fullstack.title" class="">
-      <div class="projectDiv">
-        <div class="projectContent">
-            <div class="">
-                {{ fullstack.title }}
-            </div>
-          <img :src="`/new-portfolio${fullstack.image}`" alt="Project Image" class="" />
-          <p class="">Languages Used:  <span class="">{{ fullstack.language }}</span></p>
-          <p class="">Description: <span class="">{{ fullstack.about }}</span></p>
-          <a :href="fullstack.repo" class="" target="_blank">Github Repo</a>
+    <input type="radio" name="position" v-for="(fullstack, index) in fullstacks" :key="fullstack.title" :id="'position-' + index" @click="updatePosition(index)" />
+    <main id="carousel">
+      <div class="item" v-for="(fullstack, index) in fullstacks" :key="fullstack.title" :class="{ active: index === currentPosition }">
+        <div class="projectDiv">
+          <div class="projectContent">
+            <div class="">{{ fullstack.title }}</div>
+            <img :src="`/new-portfolio${fullstack.image}`" alt="Project Image" class="" />
+            <p class="">Languages Used: <span class="">{{ fullstack.language }}</span></p>
+            <p class="">Description: <span class="">{{ fullstack.about }}</span></p>
+            <a :href="fullstack.repo" class="" target="_blank">Github Repo</a>
+          </div>
         </div>
       </div>
-    </div>
-    </div>
+    </main>
+  </div>
   </div>
 </template>
 
@@ -258,6 +271,108 @@ h3 {
 img {
   height: 250px;
   width: 250px;
+}
+
+.bigBody {
+  height: 600px;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 500px 100px;
+  grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+main#carousel {
+  grid-row: 1 / 2;
+  grid-column: 1 / 8;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  --items: 5;
+  --middle: 3;
+  --position: 1;
+  pointer-events: none;
+}
+
+div.item {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  background-color: coral;
+  --r: calc(var(--position) - var(--offset));
+  --abs: max(calc(var(--r) * -1), var(--r));
+  transition: all 0.25s linear;
+  transform: rotateY(calc(-10deg * var(--r)))
+    translateX(calc(-300px * var(--r)));
+  z-index: calc((var(--position) - var(--abs)));
+}
+
+
+div.item:nth-of-type(1) {
+  --offset: 1;
+  background-color: #90f1ef;
+}
+div.item:nth-of-type(2) {
+  --offset: 2;
+  background-color: #ff70a6;
+}
+div.item:nth-of-type(3) {
+  --offset: 3;
+  background-color: #ff9770;
+}
+div.item:nth-of-type(4) {
+  --offset: 4;
+  background-color: #ffd670;
+}
+div.item:nth-of-type(5) {
+  --offset: 5;
+  background-color: #e9ff70;
+}
+
+input:nth-of-type(1) {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(1):checked ~ main#carousel {
+  --position: 1;
+}
+
+input:nth-of-type(2) {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(2):checked ~ main#carousel {
+  --position: 2;
+}
+
+input:nth-of-type(3) {
+  grid-column: 4 /5;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(3):checked ~ main#carousel {
+  --position: 3;
+}
+
+input:nth-of-type(4) {
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(4):checked ~ main#carousel {
+  --position: 4;
+}
+
+input:nth-of-type(5) {
+  grid-column: 6 / 7;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(5):checked ~ main#carousel {
+  --position: 5;
 }
 
 </style>
