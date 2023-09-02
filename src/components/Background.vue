@@ -1,40 +1,43 @@
 <template>
-    <div class="background" ref="background">
-      <div class="wave"></div>
-      <div class="wave"></div>
-      <div class="wave"></div>
-    </div>
-  </template>
-  
-<script lang="ts">
-export default {
-  name: 'BackgroundComponent',
-  mounted() {
-    window.addEventListener('scroll', this.handleScroll);
-  },
-  beforeUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
-  },
-  methods: {
-    handleScroll() {
-      // Calculate the scroll position relative to section heights
-      const scrollPosition = window.scrollY;
-      const sectionHeight = window.innerHeight;
+  <div class="background" ref="background">
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+  </div>
+</template>
 
-      // Calculate the background position based on the scroll position
-      const backgroundPosition = (scrollPosition % sectionHeight) / sectionHeight;
+<script setup lang="ts">
+import { onMounted, onBeforeUnmount, ref } from 'vue';
 
-      // Apply the background position
-      if (this.$refs.background) {
-        (this.$refs.background as HTMLElement).style.backgroundPositionY = `${
-          backgroundPosition * 100
-        }%`;
-      }
-    },
-  },
+const backgroundRef = ref<HTMLElement | null>(null);
+const currentSection = ref<number>(0);
+const targetPosition = ref<number>(0);
+
+const handleScroll = () => {
+  // Calculate the section height
+  const sectionHeight = window.innerHeight;
+
+  // Calculate the current section (page)
+  currentSection.value = Math.floor(window.scrollY / sectionHeight);
+
+  // Calculate the target position for snapping
+  targetPosition.value = currentSection.value * sectionHeight;
+
+  // Apply the background position
+  if (backgroundRef.value) {
+    backgroundRef.value.style.backgroundPositionY = `-${currentSection.value * 100}%`;
+  }
 };
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener('scroll', handleScroll);
+});
 </script>
-  
+
   <style scoped>
   .background {
     position: fixed;
