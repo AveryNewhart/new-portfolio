@@ -46,19 +46,12 @@ const frontends: Frontend[] = [
         repo: 'put repo link',
     },
     // {
-    //     title: 'Free Blackjack',
-    //     image: 'put an under construction picture here',
+    //     title: 'Note Taker',
+    //     image: '/images/noteTaker.png',
     //     language: 'languages used here, js',
-    //     about: 'i love blackjack this is the about section',
+    //     about: 'i love taking notes this is the about section',
     //     repo: 'put repo link',
     // },
-    {
-        title: 'Note Taker',
-        image: '/images/noteTaker.png',
-        language: 'languages used here, js',
-        about: 'i love taking notes this is the about section',
-        repo: 'put repo link',
-    },
     {
         title: 'Timed Coding Quiz',
         image: '/images/codingQuiz.png',
@@ -101,13 +94,13 @@ const frontends: Frontend[] = [
         about: 'i love weather this is the about section',
         repo: 'put repo link',
     },
-    {
-        title: 'Day Planner',
-        image: '/images/dayPlanner.png',
-        language: 'languages used here, html, css',
-        about: 'i love planning my day this is the about section',
-        repo: 'put repo link',
-    },
+    // {
+    //     title: 'Day Planner',
+    //     image: '/images/dayPlanner.png',
+    //     language: 'languages used here, html, css',
+    //     about: 'i love planning my day this is the about section',
+    //     repo: 'put repo link',
+    // },
 ];
 
 const totalFrontendProjects = ref(frontends.length);
@@ -367,7 +360,7 @@ div.item:nth-of-type(10) {
   --offset: 10;
   background-color: #e9ff70;
 }
-div.item:nth-of-type(11) {
+/* div.item:nth-of-type(11) {
   --offset: 11;
   background-color: #e9ff70;
 }
@@ -386,7 +379,7 @@ div.item:nth-of-type(14) {
 div.item:nth-of-type(15) {
   --offset: 15;
   background-color: #e9ff70;
-}
+} */
 
 input:nth-of-type(1) {
   grid-column: 2 / 3;
@@ -429,8 +422,8 @@ input:nth-of-type(5):checked ~ main#carousel {
 }
 
 input:nth-of-type(6) {
-  grid-column: 7 / 8;
-  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  grid-row: 3 / 3;
 }
 
 input:nth-of-type(6):checked ~ main#carousel {
@@ -438,8 +431,8 @@ input:nth-of-type(6):checked ~ main#carousel {
 }
 
 input:nth-of-type(7) {
-  grid-column: 8 / 9;
-  grid-row: 2 / 3;
+  grid-column: 3 / 4;
+  grid-row: 3 / 3;
 }
 
 input:nth-of-type(7):checked ~ main#carousel {
@@ -447,8 +440,8 @@ input:nth-of-type(7):checked ~ main#carousel {
 }
 
 input:nth-of-type(8) {
-  grid-column: 9 / 10;
-  grid-row: 2 / 3;
+  grid-column: 4 / 5;
+  grid-row: 3 / 3;
 }
 
 input:nth-of-type(8):checked ~ main#carousel {
@@ -456,8 +449,8 @@ input:nth-of-type(8):checked ~ main#carousel {
 }
 
 input:nth-of-type(9) {
-  grid-column: 10 / 11;
-  grid-row: 2 / 3;
+  grid-column: 5 / 6;
+  grid-row: 3 / 3;
 }
 
 input:nth-of-type(9):checked ~ main#carousel {
@@ -465,17 +458,17 @@ input:nth-of-type(9):checked ~ main#carousel {
 }
 
 input:nth-of-type(10) {
-  grid-column: 11 / 12;
-  grid-row: 2 / 3;
+  grid-column: 6 / 7;
+  grid-row: 3 / 3;
 }
 
 input:nth-of-type(10):checked ~ main#carousel {
   --position: 10;
 }
 
-input:nth-of-type(11) {
-  grid-column: 12 / 13;
-  grid-row: 2 / 3;
+/* input:nth-of-type(11) {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
 }
 
 input:nth-of-type(11):checked ~ main#carousel {
@@ -516,6 +509,6 @@ input:nth-of-type(15) {
 
 input:nth-of-type(15):checked ~ main#carousel {
   --position: 15;
-}
+} */
 
 </style>
