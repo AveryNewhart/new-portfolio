@@ -2,6 +2,12 @@
 
 import { ref } from 'vue';
 
+const currentPosition = ref(0);
+
+const updatePosition = (index: number) => {
+  currentPosition.value = index;
+};
+
 interface Frontend {
     title: string;
     image: string;
@@ -103,12 +109,6 @@ const frontends: Frontend[] = [
         repo: 'put repo link',
     },
 ];
-
-const currentPosition = ref(0);
-
-const updatePosition = (index: number) => {
-  currentPosition.value = index;
-};
 
 interface Backend {
     title: string;
