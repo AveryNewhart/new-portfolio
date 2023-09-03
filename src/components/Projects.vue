@@ -204,10 +204,10 @@ const fullstacks: Fullstack[] = [
           <div class="item" v-for="(frontend, index) in frontends" :key="frontend.title" :class="{ active: index === currentPosition }">
             <div class="projectDiv">
               <div class="projectContent">
-                <div class="">{{ frontend.title }}</div>
+                <div class="text-center">{{ frontend.title }}</div>
                 <img :src="`/new-portfolio${frontend.image}`" alt="Project Image" class="" />
-                <p class="">Languages Used: <span class="">{{ frontend.language }}</span></p>
-                <p class="">Description: <span class="">{{ frontend.about }}</span></p>
+                <p class="mainP">Languages Used: <span class="mainS">{{ frontend.language }}</span></p>
+                <p class="mainP">Description: <span class="mainS">{{ frontend.about }}</span></p>
                 <a :href="frontend.repo" class="" target="_blank">Github Repo</a>
               </div>
             </div>
@@ -224,7 +224,7 @@ const fullstacks: Fullstack[] = [
         <div class="item" v-for="(backend, index) in backends" :key="backend.title" :class="{ active: index === currentPosition }">
           <div class="projectDiv">
             <div class="projectContent">
-              <div class="">{{ backend.title }}</div>
+              <div class="text-center">{{ backend.title }}</div>
               <img :src="`/new-portfolio${backend.image}`" alt="Project Image" class="" />
               <p class="">Languages Used: <span class="">{{ backend.language }}</span></p>
               <p class="">Description: <span class="">{{ backend.about }}</span></p>
@@ -244,7 +244,7 @@ const fullstacks: Fullstack[] = [
         <div class="item" v-for="(fullstack, index) in fullstacks" :key="fullstack.title" :class="{ active: index === currentPosition }">
           <div class="projectDiv">
             <div class="projectContent">
-              <div class="">{{ fullstack.title }}</div>
+              <div class="text-center">{{ fullstack.title }}</div>
               <img :src="`/new-portfolio${fullstack.image}`" alt="Project Image" class="" />
               <p class="">Languages Used: <span class="">{{ fullstack.language }}</span></p>
               <p class="">Description: <span class="">{{ fullstack.about }}</span></p>
@@ -260,6 +260,21 @@ const fullstacks: Fullstack[] = [
 </template>
 
 <style scoped>
+
+.mainP {
+  font-weight: bold;
+}
+
+.mainS {
+  font-weight: normal;
+}
+
+.projectContent a {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
 
 .mainProjDiv {
   border: 2px solid darkgoldenrod;
@@ -277,7 +292,7 @@ h3 {
 
 img {
   height: 250px;
-  width: 250px;
+  width: 300px;
 }
 
 .bigBody {
