@@ -3,7 +3,7 @@
 
 <template>
   <div class="aboutMeDiv">
-    <h1>About</h1>
+    <h1 class="text-center">About</h1>
     <div class="aboutContent">
       <div class="aboutText">
         <p>WHO AM I?</p>
