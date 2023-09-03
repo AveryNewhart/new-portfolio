@@ -267,6 +267,7 @@ const fullstacks: Fullstack[] = [
 
 .mainProjectDivs {
   margin-top: 25px;
+  min-height: 900px;
 }
 
 h3 {
@@ -342,23 +343,27 @@ div.item:nth-of-type(5) {
 }
 div.item:nth-of-type(6) {
   --offset: 6;
-  background-color: #e9ff70;
+  background-color: #a0ff70;
 }
+
 div.item:nth-of-type(7) {
   --offset: 7;
-  background-color: #e9ff70;
+  background-color: #ffcc70;
 }
+
 div.item:nth-of-type(8) {
   --offset: 8;
-  background-color: #e9ff70;
+  background-color: #70ffd6; 
 }
+
 div.item:nth-of-type(9) {
   --offset: 9;
-  background-color: #e9ff70;
+  background-color: #ff70e9; 
 }
+
 div.item:nth-of-type(10) {
   --offset: 10;
-  background-color: #e9ff70;
+  background-color: #70a0ff;
 }
 /* div.item:nth-of-type(11) {
   --offset: 11;
