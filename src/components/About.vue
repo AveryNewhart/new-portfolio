@@ -8,6 +8,7 @@
       <div class="aboutText">
         <p>WHO AM I?</p>
         <p>Text about myself goes here.</p>
+        <a href="#contact" class="px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-600">Contact Me</a>
       </div>
       <img class="myPic" src='/images/myPic.png'>
     </div>
