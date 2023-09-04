@@ -46,6 +46,7 @@
 .mainResDiv {
   border: 2px solid silver;
   padding: 20px;
+  height: 900px;
 }
 
 .skills-section {
