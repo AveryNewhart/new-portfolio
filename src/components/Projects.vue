@@ -11,6 +11,7 @@ const updatePosition = (index: number) => {
 interface Frontend {
     title: string;
     image: string;
+    deployed: string;
     language: string;
     about: string;
     repo: string;
@@ -20,30 +21,34 @@ const frontends: Frontend[] = [
     {
         title: 'Golf Lancaster',
         image: '/images/golfLancaster.png',
+        deployed: 'https://averynewhart.github.io/golf-lancaster/',
         language: 'Vue, Typescript, Tailwind',
         about: 'i love gokfinggg this is the about section',
-        repo: 'https://averynewhart.github.io/golf-lancaster/',
+        repo: 'https://github.com/AveryNewhart/golf-lancaster',
     },
     {
         title: 'My Stopwatch',
         image: '/images/stopwatch.png',
+        deployed: 'https://averynewhart.github.io/my-stopwatch/',
         language: 'Vue, Typescript, Tailwind',
         about: 'i love stopwacthes this is the about section',
-        repo: 'put repo link',
+        repo: 'https://github.com/AveryNewhart/my-stopwatch',
     },
     {
         title: 'Final Countdown',
         image: '/images/finalCountdown.png',
+        deployed: 'https://averynewhart.github.io/final-countdown/',
         language: 'Vue, Typescript, Tailwind',
         about: 'i love counting down this is the about section',
-        repo: 'put repo link',
+        repo: 'https://github.com/AveryNewhart/final-countdown',
     },
     {
         title: 'Vue Calc',
         image: '/images/calc.png',
+        deployed: 'https://averynewhart.github.io/vue-calc/',
         language: 'Vue, Typescript, Tailwind',
         about: 'i love math this is the about section',
-        repo: 'put repo link',
+        repo: 'https://github.com/AveryNewhart/vue-calc',
     },
     // {
     //     title: 'Note Taker',
@@ -55,44 +60,50 @@ const frontends: Frontend[] = [
     {
         title: 'Timed Coding Quiz',
         image: '/images/codingQuiz.png',
+        deployed: 'https://averynewhart.github.io/Timed-Coding-Quiz/index.html',
         language: 'HTML, CSS, JavaScript',
         about: 'i love quizzes this is the about section',
-        repo: 'put repo link',
+        repo: 'https://github.com/AveryNewhart/Timed-Coding-Quiz',
     },
     {
         title: 'Weather Forecast',
         image: '/images/weather.png',
+        deployed: 'https://averynewhart.github.io/weather-forceast-dashbord/',
         language: 'HTML, CSS, JavaScript',
         about: 'i love weather this is the about section',
-        repo: 'put repo link',
+        repo: 'https://github.com/AveryNewhart/weather-forceast-dashbord',
     },
     {
         title: 'Password Generator',
         image: '/images/passwordGen.png',
+        deployed: 'https://averynewhart.github.io/password-gen/',
         language: 'HTML, CSS, JavaScript',
         about: 'i love generating passwords this is the about section',
-        repo: 'put repo link',
+        repo: 'https://github.com/AveryNewhart/password-gen',
     },
     {
         title: 'Tic Tac Toe',
         image: '/images/tictactoe.png',
+        deployed: 'https://averynewhart.github.io/tic-tac-toe/',
         language: 'TypeScript, HTML, CSS',
         about: 'i love tictactoe this is the about section',
-        repo: 'put repo link',
+        repo: 'https://github.com/AveryNewhart/tic-tac-toe',
     },
     {
         title: 'Track Your Time',
         image: '/images/trackYourDay.png',
+        deployed: 'https://averynewhart.github.io/track-your-time/',
         language: 'TypeScript, HTML, CSS',
         about: 'i love to do lists this is the about section',
-        repo: 'put repo link',
+        repo: 'https://github.com/AveryNewhart/track-your-time',
     },
     {
         title: 'Musician Website',
         image: '/images/musicianWebsite.png',
+        deployed: 'https://averynewhart.github.io/Musician-Website/',
         language: 'HTML, CSS',
         about: 'i love weather this is the about section',
-        repo: 'put repo link',
+        repo: 'https://github.com/AveryNewhart/Musician-Website',
     },
     // {
     //     title: 'Day Planner',
@@ -108,6 +119,7 @@ const totalFrontendProjects = ref(frontends.length);
 interface Backend {
     title: string;
     image: string;
+    video: string;
     language: string;
     about: string;
     repo: string;
@@ -117,43 +129,49 @@ const backends: Backend[] = [
     {
         title: 'README Generator',
         image: '/images/readMeGen.png',
+        video: 'https://github.com/AveryNewhart/README-Generator',
         language: 'JavaScript',
         about: 'i love creating read meeeeeeeeesssss about section',
-        repo: 'put repo link',
+        repo: 'https://github.com/AveryNewhart/README-Generator',
     },
     {
         title: 'Social Network Backend',
         image: '/images/socialNetworkBackend.png',
+        video: 'https://drive.google.com/file/d/1Niv2UUrKq0y4PreW8bW5NCwMH163WCtw/view',
         language: 'JavaScript',
         about: 'i love social netowrking about section',
-        repo: 'put repo link',
+        repo: 'https://github.com/AveryNewhart/Social-Network-Backend',
     },
     {
         title: 'E-Commerce Site',
         image: '/images/eCommerce.png',
+        video: 'ecommercevideo.webm',
         language: 'languages used here, js',
         about: 'i love ecommerceeee about section',
-        repo: 'put repo link',
+        repo: 'https://github.com/AveryNewhart/E-Commerce-Site',
     },
     {
         title: 'Employee Tracker',
         image: '/images/employeeTracker.png',
+        video: 'employee-tracker-vid.webm',
         language: 'JavaScript',
         about: 'i love tracking employeeeeees about section',
-        repo: 'put repo link',
+        repo: 'https://github.com/AveryNewhart/Employee-Tracker',
     },
     {
         title: 'Team Profile Generator',
         image: '/images/teamProfGen.png',
+        video: 'teamgen.webm',
         language: 'JavaScript',
         about: 'i love creating team profiles about section',
-        repo: 'put repo link',
+        repo: 'https://github.com/AveryNewhart/Team-Profile-Generator',
     },
 ];
 
 interface Fullstack {
     title: string;
     image: string;
+    deployed: string;
     language: string;
     about: string;
     repo: string;
@@ -163,30 +181,34 @@ const fullstacks: Fullstack[] = [
     {
         title: 'My Music',
         image: '/images/myMusic.png',
+        deployed: 'https://my-music-4e69cad2a89f.herokuapp.com/',
         language: 'JavaScript, HTML, CSS',
         about: 'i love musiccccc this is the about section',
-        repo: 'put repo link',
+        repo: 'https://github.com/AveryNewhart/my-music',
     },
     {
         title: 'Your Movies',
         image: '/images/yourMovies.png',
+        deployed: 'https://yourmovies.herokuapp.com/',
         language: 'JavaScript, HTML, CSS',
         about: 'i love moviessss this is the about section',
-        repo: 'put repo link',
+        repo: 'https://github.com/AveryNewhart/YOUR-MOVIES',
     },
     {
         title: 'The Flick Tracker',
         image: '/images/FlickTracker.png',
+        deployed: 'https://the-flick-tracker.herokuapp.com/',
         language: 'JavaScript, HTML, CSS',
         about: 'i love movies oldddd this is the about section',
-        repo: 'put repo link',
+        repo: 'https://github.com/AveryNewhart/The-Flick-Tracker',
     },
     {
         title: 'The Tech Blog',
         image: '/images/techBlog.png',
+        deployed: 'https://my-tech-blog-888.herokuapp.com/',
         language: 'JavaScript, HTML, CSS',
         about: 'i love blogging this is the about section',
-        repo: 'put repo link',
+        repo: 'https://github.com/AveryNewhart/Tech-Blog',
     },
 ];
 
@@ -205,10 +227,12 @@ const fullstacks: Fullstack[] = [
             <div class="projectDiv">
               <div class="projectContent">
                 <div class="text-center">{{ frontend.title }}</div>
-                <img :src="`/new-portfolio${frontend.image}`" alt="Project Image" class="" />
+                <a :href="frontend.deployed" target="_blank">
+              <img :src="`/new-portfolio${frontend.image}`" alt="Project Image" class="" />
+            </a>
                 <p class="mainP">Languages Used: <span class="mainS">{{ frontend.language }}</span></p>
                 <p class="mainP">Description: <span class="mainS">{{ frontend.about }}</span></p>
-                <a :href="frontend.repo" class="" target="_blank">Github Repo</a>
+                <a :href="frontend.repo" class="linkSite" target="_blank">Github Repo</a>
               </div>
             </div>
           </div>
@@ -273,6 +297,7 @@ const fullstacks: Fullstack[] = [
   display: block;
   text-align: center;
   margin: 0 auto;
+  /* z-index: 99; */
 }
 
 

@@ -11,11 +11,11 @@
           <h2 class="text-xl font-semibold mb-2 text-center">Frontend Skills</h2>
           <ul>
             <li class="skill">
-              <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" />
+              <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
               <p>Frontend Skill 1</p>
             </li>
             <li class="skill">
-              <img src="/images/frontend-icon2.png" alt="Frontend Skill 2" class="w-12 h-12" />
+              <!-- <img src="/images/frontend-icon2.png" alt="Frontend Skill 2" class="w-12 h-12" /> -->
               <p>Frontend Skill 2</p>
             </li>
             <!-- Add more frontend skills as list items -->
@@ -26,11 +26,12 @@
           <h2 class="text-xl font-semibold mb-2 text-center">Backend Skills</h2>
           <ul>
             <li class="skill">
-              <img src="/images/backend-icon1.png" alt="Backend Skill 1" class="w-12 h-12" />
+              <!-- <img src="/images/backend-icon1.png" alt="Backend Skill 1" class="w-12 h-12" /> -->
               <p>Backend Skill 1</p>
             </li>
             <li class="skill">
-              <img src="/images/backend-icon2.png" alt="Backend Skill 2" class="w-12 h-12" />
+              <!-- <img 
+              src="/images/backend-icon2.png" alt="Backend Skill 2" class="w-12 h-12" /> -->
               <p>Backend Skill 2</p>
             </li>
             <!-- Add more backend skills as list items -->
@@ -38,7 +39,9 @@
         </div>
       </div>
     </div>
-    <a href="/path-to-your-resume.pdf" class="text-blue-500 hover:underline">Download Resume (PDF)</a>
+    <a 
+    href="/path-to-your-resume.pdf" 
+    class="text-blue-500 hover:underline">Download Resume (PDF)</a>
   </div>
 </template>
 
