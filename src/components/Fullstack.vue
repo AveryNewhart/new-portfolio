@@ -60,7 +60,7 @@ const fullstacks: Fullstack[] = [
       <h3>Fullstack</h3>
     <div class="bigBody">
       <input type="radio" name="position" v-for="(fullstack, index) in fullstacks" :key="fullstack.title" :id="'position-' + index" @click="updatePosition(index)" />
-      <main id="carousel">
+      <main id="carousel2">
         <div class="item" v-for="(fullstack, index) in fullstacks" :key="fullstack.title" :class="{ active: index === currentPosition }">
           <div class="projectDiv">
             <div class="projectContent">
@@ -126,7 +126,7 @@ img {
   justify-items: center;
 }
 
-main#carousel {
+main#carousel2 {
   grid-row: 1 / 2;
   grid-column: 1 / 8;
   width: 100vw;
@@ -206,7 +206,7 @@ input:nth-of-type(1) {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
 }
-input:nth-of-type(1):checked ~ main#carousel {
+input:nth-of-type(1):checked ~ main#carousel2 {
   --position: 1;
 }
 
@@ -214,7 +214,7 @@ input:nth-of-type(2) {
   grid-column: 3 / 4;
   grid-row: 2 / 3;
 }
-input:nth-of-type(2):checked ~ main#carousel {
+input:nth-of-type(2):checked ~ main#carousel2 {
   --position: 2;
 }
 
@@ -222,7 +222,7 @@ input:nth-of-type(3) {
   grid-column: 4 /5;
   grid-row: 2 / 3;
 }
-input:nth-of-type(3):checked ~ main#carousel {
+input:nth-of-type(3):checked ~ main#carousel2 {
   --position: 3;
 }
 
@@ -230,7 +230,7 @@ input:nth-of-type(4) {
   grid-column: 5 / 6;
   grid-row: 2 / 3;
 }
-input:nth-of-type(4):checked ~ main#carousel {
+input:nth-of-type(4):checked ~ main#carousel2 {
   --position: 4;
 }
 
@@ -238,7 +238,7 @@ input:nth-of-type(5) {
   grid-column: 6 / 7;
   grid-row: 2 / 3;
 }
-input:nth-of-type(5):checked ~ main#carousel {
+input:nth-of-type(5):checked ~ main#carousel2 {
   --position: 5;
 }
 
@@ -247,7 +247,7 @@ input:nth-of-type(6) {
   grid-row: 3 / 3;
 }
 
-input:nth-of-type(6):checked ~ main#carousel {
+input:nth-of-type(6):checked ~ main#carousel2 {
   --position: 6;
 }
 
@@ -256,7 +256,7 @@ input:nth-of-type(7) {
   grid-row: 3 / 3;
 }
 
-input:nth-of-type(7):checked ~ main#carousel {
+input:nth-of-type(7):checked ~ main#carousel2 {
   --position: 7;
 }
 
@@ -265,7 +265,7 @@ input:nth-of-type(8) {
   grid-row: 3 / 3;
 }
 
-input:nth-of-type(8):checked ~ main#carousel {
+input:nth-of-type(8):checked ~ main#carousel2 {
   --position: 8;
 }
 
@@ -274,7 +274,7 @@ input:nth-of-type(9) {
   grid-row: 3 / 3;
 }
 
-input:nth-of-type(9):checked ~ main#carousel {
+input:nth-of-type(9):checked ~ main#carousel2 {
   --position: 9;
 }
 
@@ -283,7 +283,7 @@ input:nth-of-type(10) {
   grid-row: 3 / 3;
 }
 
-input:nth-of-type(10):checked ~ main#carousel {
+input:nth-of-type(10):checked ~ main#carousel2 {
   --position: 10;
 }
 
