@@ -71,7 +71,7 @@ const backends: Backend[] = [
   <div class="mainProjectDivs">
       <h3>Backend</h3>
      <div class="bigBody">
-      <input type="radio" name="position" v-for="(backend, index) in backends" :key="backend.title" :id="'position-' + index" @click="updatePosition(index)" />
+      <input type="radio" name="1position" v-for="(backend, index) in backends" :key="backend.title" :id="'1position-' + index" @click="updatePosition(index)" />
       <main id="carousel1">
         <div class="item" v-for="(backend, index) in backends" :key="backend.title" :class="{ active: index === currentPosition }">
           <div class="projectDiv">

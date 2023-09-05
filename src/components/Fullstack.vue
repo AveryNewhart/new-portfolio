@@ -59,7 +59,7 @@ const fullstacks: Fullstack[] = [
   <div class="mainProjectDivs">
       <h3>Fullstack</h3>
     <div class="bigBody">
-      <input type="radio" name="position" v-for="(fullstack, index) in fullstacks" :key="fullstack.title" :id="'position-' + index" @click="updatePosition(index)" />
+      <input type="radio" name="2position" v-for="(fullstack, index) in fullstacks" :key="fullstack.title" :id="'2position-' + index" @click="updatePosition(index)" />
       <main id="carousel2">
         <div class="item" v-for="(fullstack, index) in fullstacks" :key="fullstack.title" :class="{ active: index === currentPosition }">
           <div class="projectDiv">
