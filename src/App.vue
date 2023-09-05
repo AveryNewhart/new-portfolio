@@ -7,6 +7,8 @@ import Projects from './components/Projects.vue';
 import Resume from './components/Resume.vue';
 import Contact from './components/Contact.vue';
 import Footer from './components/Footer.vue';
+import Backend from './components/Backend.vue';
+import FullStack from './components/Fullstack.vue';
 
 
 </script>
@@ -22,6 +24,8 @@ import Footer from './components/Footer.vue';
       </div>
       <div class="section projectDiv">
         <Projects />
+        <Backend />
+        <FullStack />
       </div>
       <div class="section resumeDiv">  
         <Resume />

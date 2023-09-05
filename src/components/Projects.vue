@@ -116,101 +116,6 @@ const frontends: Frontend[] = [
 
 const totalFrontendProjects = ref(frontends.length);
 
-interface Backend {
-    title: string;
-    image: string;
-    video: string;
-    language: string;
-    about: string;
-    repo: string;
-}
-
-const backends: Backend[] = [
-    {
-        title: 'README Generator',
-        image: '/images/readMeGen.png',
-        video: 'https://github.com/AveryNewhart/README-Generator',
-        language: 'JavaScript',
-        about: 'i love creating read meeeeeeeeesssss about section',
-        repo: 'https://github.com/AveryNewhart/README-Generator',
-    },
-    {
-        title: 'Social Network Backend',
-        image: '/images/socialNetworkBackend.png',
-        video: 'https://drive.google.com/file/d/1Niv2UUrKq0y4PreW8bW5NCwMH163WCtw/view',
-        language: 'JavaScript',
-        about: 'i love social netowrking about section',
-        repo: 'https://github.com/AveryNewhart/Social-Network-Backend',
-    },
-    {
-        title: 'E-Commerce Site',
-        image: '/images/eCommerce.png',
-        video: 'ecommercevideo.webm',
-        language: 'languages used here, js',
-        about: 'i love ecommerceeee about section',
-        repo: 'https://github.com/AveryNewhart/E-Commerce-Site',
-    },
-    {
-        title: 'Employee Tracker',
-        image: '/images/employeeTracker.png',
-        video: 'employee-tracker-vid.webm',
-        language: 'JavaScript',
-        about: 'i love tracking employeeeeees about section',
-        repo: 'https://github.com/AveryNewhart/Employee-Tracker',
-    },
-    {
-        title: 'Team Profile Generator',
-        image: '/images/teamProfGen.png',
-        video: 'teamgen.webm',
-        language: 'JavaScript',
-        about: 'i love creating team profiles about section',
-        repo: 'https://github.com/AveryNewhart/Team-Profile-Generator',
-    },
-];
-
-interface Fullstack {
-    title: string;
-    image: string;
-    deployed: string;
-    language: string;
-    about: string;
-    repo: string;
-}
-
-const fullstacks: Fullstack[] = [
-    {
-        title: 'My Music',
-        image: '/images/myMusic.png',
-        deployed: 'https://my-music-4e69cad2a89f.herokuapp.com/',
-        language: 'JavaScript, HTML, CSS',
-        about: 'i love musiccccc this is the about section',
-        repo: 'https://github.com/AveryNewhart/my-music',
-    },
-    {
-        title: 'Your Movies',
-        image: '/images/yourMovies.png',
-        deployed: 'https://yourmovies.herokuapp.com/',
-        language: 'JavaScript, HTML, CSS',
-        about: 'i love moviessss this is the about section',
-        repo: 'https://github.com/AveryNewhart/YOUR-MOVIES',
-    },
-    {
-        title: 'The Flick Tracker',
-        image: '/images/FlickTracker.png',
-        deployed: 'https://the-flick-tracker.herokuapp.com/',
-        language: 'JavaScript, HTML, CSS',
-        about: 'i love movies oldddd this is the about section',
-        repo: 'https://github.com/AveryNewhart/The-Flick-Tracker',
-    },
-    {
-        title: 'The Tech Blog',
-        image: '/images/techBlog.png',
-        deployed: 'https://my-tech-blog-888.herokuapp.com/',
-        language: 'JavaScript, HTML, CSS',
-        about: 'i love blogging this is the about section',
-        repo: 'https://github.com/AveryNewhart/Tech-Blog',
-    },
-];
 
 </script>
 
@@ -239,47 +144,6 @@ const fullstacks: Fullstack[] = [
         </main>
     </div>
   </div>
-
-  <div class="mainProjectDivs">
-      <h3>Backend</h3>
-     <div class="bigBody">
-      <input type="radio" name="position" v-for="(backend, index) in backends" :key="backend.title" :id="'position-' + index" @click="updatePosition(index)" />
-      <main id="carousel">
-        <div class="item" v-for="(backend, index) in backends" :key="backend.title" :class="{ active: index === currentPosition }">
-          <div class="projectDiv">
-            <div class="projectContent">
-              <div class="text-center">{{ backend.title }}</div>
-              <img :src="`/new-portfolio${backend.image}`" alt="Project Image" class="" />
-              <p class="">Languages Used: <span class="">{{ backend.language }}</span></p>
-              <p class="">Description: <span class="">{{ backend.about }}</span></p>
-              <a :href="backend.repo" class="" target="_blank">Github Repo</a>
-            </div>
-          </div>
-        </div>
-      </main>
-    </div>
-  </div>
-
-  <div class="mainProjectDivs">
-      <h3>Fullstack</h3>
-    <div class="bigBody">
-      <input type="radio" name="position" v-for="(fullstack, index) in fullstacks" :key="fullstack.title" :id="'position-' + index" @click="updatePosition(index)" />
-      <main id="carousel">
-        <div class="item" v-for="(fullstack, index) in fullstacks" :key="fullstack.title" :class="{ active: index === currentPosition }">
-          <div class="projectDiv">
-            <div class="projectContent">
-              <div class="text-center">{{ fullstack.title }}</div>
-              <img :src="`/new-portfolio${fullstack.image}`" alt="Project Image" class="" />
-              <p class="">Languages Used: <span class="">{{ fullstack.language }}</span></p>
-              <p class="">Description: <span class="">{{ fullstack.about }}</span></p>
-              <a :href="fullstack.repo" class="" target="_blank">Github Repo</a>
-            </div>
-          </div>
-        </div>
-      </main>
-    </div>
-  </div>
-  
   </div>
 </template>
 
@@ -405,26 +269,6 @@ div.item:nth-of-type(10) {
   --offset: 10;
   background-color: #70a0ff;
 }
-/* div.item:nth-of-type(11) {
-  --offset: 11;
-  background-color: #e9ff70;
-}
-div.item:nth-of-type(12) {
-  --offset: 12;
-  background-color: #e9ff70;
-}
-div.item:nth-of-type(13) {
-  --offset: 13;
-  background-color: #e9ff70;
-}
-div.item:nth-of-type(14) {
-  --offset: 14;
-  background-color: #e9ff70;
-}
-div.item:nth-of-type(15) {
-  --offset: 15;
-  background-color: #e9ff70;
-} */
 
 input:nth-of-type(1) {
   grid-column: 2 / 3;
@@ -510,50 +354,5 @@ input:nth-of-type(10) {
 input:nth-of-type(10):checked ~ main#carousel {
   --position: 10;
 }
-
-/* input:nth-of-type(11) {
-  grid-column: 2 / 3;
-  grid-row: 1 / 3;
-}
-
-input:nth-of-type(11):checked ~ main#carousel {
-  --position: 11;
-}
-
-input:nth-of-type(12) {
-  grid-column: 13 / 14;
-  grid-row: 2 / 3;
-}
-
-input:nth-of-type(12):checked ~ main#carousel {
-  --position: 12;
-}
-
-input:nth-of-type(13) {
-  grid-column: 14 / 15;
-  grid-row: 2 / 3;
-}
-
-input:nth-of-type(13):checked ~ main#carousel {
-  --position: 13;
-}
-
-input:nth-of-type(14) {
-  grid-column: 15 / 16;
-  grid-row: 2 / 3;
-}
-
-input:nth-of-type(14):checked ~ main#carousel {
-  --position: 14;
-}
-
-input:nth-of-type(15) {
-  grid-column: 16 / 17;
-  grid-row: 2 / 3;
-}
-
-input:nth-of-type(15):checked ~ main#carousel {
-  --position: 15;
-} */
 
 </style>
