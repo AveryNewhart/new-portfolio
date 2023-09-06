@@ -7,7 +7,9 @@
     <div class="aboutContent">
       <div class="aboutText">
         <p>WHO AM I?</p>
-        <p>Text about myself goes here.</p>
+        <p>My names Avery Newhart and I am devoted to having a career as a developed after making it my next step once I got out of the United States Air Force. 
+          I am eager to learn, grow, and strengthen my skills and everyone else's around me in all ways possible. 
+          All I am waiting for is my first opportunity to truly show what I can do in this industry, and I promise you will not be let down.</p>
         <a href="#contact" class="px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-600">Contact Me</a>
       </div>
       <img class="myPic" src='/images/myPic.png'>
