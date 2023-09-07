@@ -33,7 +33,7 @@ import FullStack from './components/Fullstack.vue';
       <div class="section contactDiv">  
         <Contact />
       </div>
-      <div class="fixed bottom-0 left-0 w-full">
+      <div class="">
         <Footer />
       </div>
     </div>

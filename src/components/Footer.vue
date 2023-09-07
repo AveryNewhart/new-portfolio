@@ -12,13 +12,13 @@
             <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
         </li>
         <li>
-            <a href="#" class="hover:underline">Contact</a>
+            <a href="#" class="mr-4 hover:underline">Contact</a>
         </li>
         <li>
-            <a href="#" class="hover:underline">Projects</a>
+            <a href="#" class="mr-4 hover:underline">Projects</a>
         </li>
         <li>
-            <a href="#" class="hover:underline">Resume</a>
+            <a href="#" class="mr-4 hover:underline">Resume</a>
         </li>
       </ul>
       </div>
