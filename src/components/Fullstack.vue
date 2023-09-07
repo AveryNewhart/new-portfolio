@@ -140,7 +140,6 @@ main#carousel2 {
   --items: 13;
   --middle: 3;
   --position: 1;
-  pointer-events: none;
 }
 
 div.item {
