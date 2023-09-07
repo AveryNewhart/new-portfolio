@@ -10,6 +10,18 @@ import Footer from './components/Footer.vue';
 import Backend from './components/Backend.vue';
 import FullStack from './components/Fullstack.vue';
 
+import { ref } from 'vue';
+
+const currentSection = ref<number>(0);
+
+const navigate = (direction: number) => {
+  const newSection = currentSection.value + direction;
+  if (newSection >= 0 && newSection <= 5) {
+    currentSection.value = newSection;
+    window.scrollTo(0, newSection * window.innerHeight);
+  }
+};
+
 
 </script>
 
@@ -18,27 +30,33 @@ import FullStack from './components/Fullstack.vue';
     <Background />
     <div class="componentDiv">
       <Nav />
-      <h2 class="bold text-white">make it so page snaps to whichever section the user is looking at.</h2>
-      <div class="section aboutDiv">
+      <div class="section aboutDiv" v-show="currentSection === 0">
         <About />
       </div>
-      <div class="section projectDiv">
+      <div class="section projectDiv" v-show="currentSection === 1">
         <Projects />
+      </div>
+      <div class="section projectDiv" v-show="currentSection === 2">
         <Backend />
+      </div>
+      <div class="section projectDiv" v-show="currentSection === 3">
         <FullStack />
       </div>
-      <div class="section resumeDiv">  
+      <div class="section resumeDiv" v-show="currentSection === 4">  
         <Resume />
       </div>
-      <div class="section contactDiv">  
+      <div class="section contactDiv" v-show="currentSection === 5">  
         <Contact />
       </div>
-      <div class="">
+      <div>
         <Footer />
       </div>
+      <div class="arrow left" @click="navigate(-1)" v-show="currentSection > 0"></div>
+      <div class="arrow right" @click="navigate(1)" v-show="currentSection < 5"></div>
     </div>
   </div>
 </template>
+
 
 <style scoped>
 
@@ -50,5 +68,24 @@ import FullStack from './components/Fullstack.vue';
 .section {
   min-height: 100vh;
 }
+
+.arrow {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  .left {
+    left: 20px;
+  }
+
+  .right {
+    right: 20px;
+  }
 
 </style>
