@@ -40,7 +40,7 @@
       </div>
     </div>
     <a 
-    href="/path-to-your-resume.pdf" 
+    href="/new-portfolio/myNewResumeAveryNewhart.pdf" 
     class="text-blue-500 hover:underline">Download Resume (PDF)</a>
   </div>
 </template>
