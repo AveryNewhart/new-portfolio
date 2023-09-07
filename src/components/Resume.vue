@@ -41,6 +41,7 @@
     </div>
     <a 
     href="/new-portfolio/myNewResumeAveryNewhart.pdf" 
+    target="_blank"
     class="text-blue-500 hover:underline">Download Resume (PDF)</a>
   </div>
 </template>
