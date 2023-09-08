@@ -9,16 +9,16 @@
         </span>
       <ul class="flex flex-wrap items-center mt-3 text-sm font-medium sm:mt-0">
         <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+            <a href="#about1" class="mr-4 hover:underline md:mr-6 ">About</a>
         </li>
         <li>
-            <a href="#" class="mr-4 hover:underline">Contact</a>
+            <a href="#contact1" class="mr-4 hover:underline">Contact</a>
         </li>
         <li>
-            <a href="#" class="mr-4 hover:underline">Projects</a>
+            <a href="#projects1" class="mr-4 hover:underline">Projects</a>
         </li>
         <li>
-            <a href="#" class="mr-4 hover:underline">Resume</a>
+            <a href="#resume1" class="mr-4 hover:underline">Resume</a>
         </li>
       </ul>
       </div>

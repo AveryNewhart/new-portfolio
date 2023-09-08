@@ -7,6 +7,12 @@ export default defineComponent({
       showMenu: false,
     };
   },
+
+methods: {
+    navigateTo(sectionId: string) {
+      this.$emit('navigate', sectionId); // Emit a custom event with the sectionId
+    },
+  },
 });
 </script>
 
@@ -69,16 +75,16 @@ export default defineComponent({
           "
         >
           <li class="text-sm font-bold hover:text-blue-400">
-            About
+            <a @click="navigateTo('about1')" class="">About</a>
           </li>
           <li class="text-sm font-bold hover:text-blue-400">
-            Projects
+            <a @click="navigateTo('projects1')" class="">Projects</a>
           </li>
           <li class="text-sm font-bold hover:text-blue-400">
-            Resume
+            <a @click="navigateTo('resume1')" class="">Resume</a>
           </li>
           <li class="text-sm font-bold hover:text-blue-400">
-            Contact Me
+            <a @click="navigateTo('contact1')" class="">Contact</a>
           </li>
         </ul>
       </nav>

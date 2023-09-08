@@ -6,7 +6,7 @@ import About from './components/About.vue';
 import Projects from './components/Projects.vue';
 import Resume from './components/Resume.vue';
 import Contact from './components/Contact.vue';
-import Footer from './components/Footer.vue';
+// import Footer from './components/Footer.vue';
 import Backend from './components/Backend.vue';
 import FullStack from './components/Fullstack.vue';
 
@@ -14,14 +14,34 @@ import { ref } from 'vue';
 
 const currentSection = ref<number>(0);
 
-const navigate = (direction: number) => {
-  const newSection = currentSection.value + direction;
-  if (newSection >= 0 && newSection <= 5) {
-    currentSection.value = newSection;
-    window.scrollTo(0, newSection * window.innerHeight);
-  }
-};
+  const navigateTo = (sectionId: string) => {
+  let newSection = currentSection.value;
 
+  if (sectionId === 'prev') {
+    newSection = Math.max(0, currentSection.value - 1);
+  } else if (sectionId === 'next') {
+    newSection = Math.min(5, currentSection.value + 1);
+  } else {
+    // Handle section IDs like 'about1', 'projects1', etc.
+    switch (sectionId) {
+      case 'about1':
+        newSection = 0;
+        break;
+      case 'projects1':
+        newSection = 1;
+        break;
+      case 'resume1':
+        newSection = 4;
+        break;
+      case 'contact1':
+        newSection = 5;
+        break;
+    }
+  }
+
+  currentSection.value = newSection;
+  window.scrollTo(0, newSection * window.innerHeight);
+};
 
 </script>
 
@@ -29,33 +49,34 @@ const navigate = (direction: number) => {
   <div id="app">
     <Background />
     <div class="componentDiv">
-      <Nav />
-      <div class="section aboutDiv" v-show="currentSection === 0">
-        <About />
+      <Nav @navigate="navigateTo" />
+      <div class="section aboutDiv" v-if="currentSection === 0">
+        <About id="about1"/>
       </div>
-      <div class="section projectDiv" v-show="currentSection === 1">
-        <Projects />
+      <div class="section projectDiv" v-if="currentSection === 1">
+        <Projects id="projects1"/>
       </div>
-      <div class="section projectDiv" v-show="currentSection === 2">
-        <Backend />
+      <div class="section projectDiv" v-if="currentSection === 2">
+        <Backend id="backend1"/>
       </div>
-      <div class="section projectDiv" v-show="currentSection === 3">
-        <FullStack />
+      <div class="section projectDiv" v-if="currentSection === 3">
+        <FullStack id="fullstack1"/>
       </div>
-      <div class="section resumeDiv" v-show="currentSection === 4">  
-        <Resume />
+      <div class="section resumeDiv" v-if="currentSection === 4">  
+        <Resume id="resume1"/>
       </div>
-      <div class="section contactDiv" v-show="currentSection === 5">  
-        <Contact />
+      <div class="section contactDiv" v-if="currentSection === 5">  
+        <Contact id="contact1"/>
       </div>
-      <div>
+      <!-- <div>
         <Footer />
-      </div>
-      <div class="arrow left" @click="navigate(-1)" v-show="currentSection > 0"></div>
-      <div class="arrow right" @click="navigate(1)" v-show="currentSection < 5"></div>
+      </div> -->
+      <div class="arrow left" @click="navigateTo('prev')" v-show="currentSection > 0"></div>
+      <div class="arrow right" @click="navigateTo('next')" v-show="currentSection < 5"></div>
     </div>
   </div>
 </template>
+
 
 
 <style scoped>
