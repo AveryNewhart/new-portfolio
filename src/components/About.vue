@@ -3,7 +3,7 @@
 
 <template>
   <div class="aboutMeDiv">
-    <h1 class="text-center">About</h1>
+    <h1 class="text-center font-bold">About</h1>
     <div class="aboutContent">
       <div class="aboutText">
         <p>WHO AM I?</p>
@@ -18,6 +18,10 @@
 </template>
 
 <style scoped>
+
+h1 {
+  font-size: 25px;
+}
 
 .aboutMeDiv {
   border: 2px solid red;
