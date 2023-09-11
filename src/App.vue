@@ -92,7 +92,7 @@ const currentSection = ref<number>(0);
 
 .arrow {
     position: fixed;
-    top: 50%;
+    top: 73%;
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
