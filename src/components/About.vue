@@ -3,14 +3,15 @@
 
 <template>
   <div class="aboutMeDiv">
-    <h1 class="text-center font-bold">About</h1>
+    <!-- <h1 class="text-center font-bold">About</h1> -->
     <div class="aboutContent">
-      <div class="aboutText">
-        <p>WHO AM I?</p>
-        <p>My names Avery Newhart and I am devoted to having a career as a developed after making it my next step once I got out of the United States Air Force. 
+      <div>
+        <div class="whoAmH1">
+        <h1>WHO AM I?</h1>
+        </div>
+        <p class="aboutText">My names Avery Newhart and I am devoted to having a career as a developed after making it my next step once I got out of the United States Air Force. 
           I am eager to learn, grow, and strengthen my skills and everyone else's around me in all ways possible. 
           All I am waiting for is my first opportunity to truly show what I can do in this industry, and I promise you will not be let down.</p>
-        <!-- <a href="#contact" class="px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-600">Contact Me</a> -->
       </div>
       <img class="myPic" src='/images/myPic.png'>
     </div>
@@ -21,6 +22,10 @@
 
 h1 {
   font-size: 25px;
+}
+
+.whoAmH1 {
+  margin-bottom: 50px;
 }
 
 .aboutMeDiv {
