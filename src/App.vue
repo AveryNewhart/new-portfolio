@@ -109,9 +109,9 @@ const currentSection = ref<number>(0);
     position: fixed;
     top: 73%;
     transform: translateY(-50%);
-    width: 30px;
-    height: 30px;
-    background-color: #333;
+    /* width: 30px;
+    height: 30px; */
+    /* background-color: #333; */
     opacity: 0.7;
     cursor: pointer;
   }
