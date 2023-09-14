@@ -7,7 +7,7 @@
     <div class="aboutContent">
       <div>
         <div class="whoAmH1">
-        <h1>WHO AM I?</h1>
+        <h1 class="text-center">WHO AM I?</h1>
         </div>
         <p class="aboutText">My names Avery Newhart and I am devoted to having a career as a developed after making it my next step once I got out of the United States Air Force. 
           I am eager to learn, grow, and strengthen my skills and everyone else's around me in all ways possible. 
@@ -22,6 +22,8 @@
 
 h1 {
   font-size: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect, with no background color, it just makes the h1 pop more since same background color as pages background */
+  border-radius: 20px;
 }
 
 .whoAmH1 {
