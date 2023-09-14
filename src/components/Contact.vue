@@ -1,6 +1,6 @@
 <template>
   <div id="contact" class="mainConDiv p-6 md:p-12">
-    <h1 class="text-center text-3xl font-semibold mb-6">Contact Us</h1>
+    <h1 class="text-center text-3xl font-semibold mb-6 conHead">Contact Us</h1>
     <form @submit.prevent="sendEmail" class="max-w-md mx-auto">
       <div class="mb-4">
         <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
@@ -64,5 +64,9 @@ function sendEmail() {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.conHead {
+  margin-top: -30vh;
 }
 </style>
