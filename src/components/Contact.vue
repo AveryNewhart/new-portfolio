@@ -1,9 +1,9 @@
 <template>
   <div id="contact" class="mainConDiv p-6 md:p-12">
     <h1 class="text-center text-3xl font-semibold mb-6 conHead">Contact Us</h1>
-    <form @submit.prevent="sendEmail" class="max-w-md mx-auto">
+    <form @submit.prevent="sendEmail" class="w-full md:max-w-lg mx-auto">
       <div class="mb-4">
-        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+        <label for="name" class="block text-sm font-medium">Name</label>
         <input
           type="text"
           id="name"
@@ -13,7 +13,7 @@
         />
       </div>
       <div class="mb-4">
-        <label for="subject" class="block text-sm font-medium text-gray-700">Subject</label>
+        <label for="subject" class="block text-sm font-medium">Subject</label>
         <input
           type="text"
           id="subject"
@@ -23,7 +23,7 @@
         />
       </div>
       <div class="mb-6">
-        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+        <label for="message" class="block text-sm font-medium">Message</label>
         <textarea
           id="message"
           v-model="message"
@@ -69,4 +69,6 @@ function sendEmail() {
 .conHead {
   margin-top: -30vh;
 }
+
+
 </style>
