@@ -54,7 +54,7 @@ onBeforeUnmount(() => {
     border-radius: 1000% 1000% 0 0;
     position: absolute;
     width: 200%;
-    height: 12em;
+    height: 8em;
     opacity: 0.8;
     bottom: 0;
     left: 0;
