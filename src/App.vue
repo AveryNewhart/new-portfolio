@@ -1,4 +1,13 @@
 <script setup lang="ts">
+/* add fontawesome core */
+import { library } from '@fortawesome/fontawesome-svg-core'
+
+/* add some free styles */
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+
+/* add each imported icon to the library */
+library.add(faTwitter)
+
 // @ts-ignore
 import Background from './components/Background.vue';
 import Nav from './components/Nav.vue';
@@ -71,6 +80,8 @@ const currentSection = ref<number>(0);
       <!-- <div>
         <Footer />
       </div> -->
+      <font-awesome-icon icon="fa-brands fa-twitter" />
+      <!-- <font-awesome-icon :icon="['fas', 'arrow-left']" /> -->
       <div class="arrow left" @click="navigateTo('prev')" v-show="currentSection > 0"></div>
       <div class="arrow right" @click="navigateTo('next')" v-show="currentSection < 5"></div>
     </div>
