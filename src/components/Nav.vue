@@ -36,6 +36,7 @@ methods: {
               text-xl
               font-bold
               md:text-2xl
+              myName
             "
             >Avery Newhart
         </div>
@@ -96,6 +97,13 @@ methods: {
 
 .mainDivNav {
   border-bottom: 5px solid black;
+}
+
+.myName {
+  padding: 20px;
+  border-radius:20px;
+  background-image: linear-gradient(40deg,#d38cff,#6272fc);
+  box-shadow: rgba(50, 50, 93, 1) 0px 50px 100px -20px, rgba(0, 0, 0, 0.5) 0px 30px 60px -30px, rgba(10, 37, 64, 0.65) 0px -2px 6px 0px inset;
 }
 
 .navBut {
