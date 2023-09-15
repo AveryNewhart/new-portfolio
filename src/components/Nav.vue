@@ -102,16 +102,16 @@ methods: {
 .myName {
   padding: 20px;
   border-radius:20px;
-  background-image: linear-gradient(40deg,#d38cff,#6272fc);
+  background-image: linear-gradient(315deg, rgb(29, 255, 25) 3%, rgba(48, 238, 226, 1) 38%, rgba(60, 132, 206, 1) 68%, rgba(101, 0, 94, 1) 98%); 
   box-shadow: rgba(50, 50, 93, 1) 0px 50px 100px -20px, rgba(0, 0, 0, 0.5) 0px 30px 60px -30px, rgba(10, 37, 64, 0.65) 0px -2px 6px 0px inset;
 }
 
 .navBut {
   padding: 10px;
   font: 25px;
-  color:#ffff;
+  color:black;
   border-radius:20px;
-  background-image: linear-gradient(40deg,#d38cff,#6272fc);
+  background-image: linear-gradient(315deg, rgb(29, 255, 25) 3%, rgba(48, 238, 226, 1) 38%, rgba(60, 132, 206, 1) 68%, rgba(101, 0, 94, 1) 98%); 
   box-shadow: rgba(50, 50, 93, 1) 0px 50px 100px -20px, rgba(0, 0, 0, 0.5) 0px 30px 60px -30px, rgba(10, 37, 64, 0.65) 0px -2px 6px 0px inset;
   cursor:pointer;
   transform: scale(0.8);
