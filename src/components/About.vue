@@ -51,8 +51,8 @@ h1 {
 }
 
 .myPic {
-  height: 350px;
-  width: 350px;
+  height: 500px;
+  width: 500px;
   margin-left: 20px;
   border-radius: 8px; 
 }
@@ -62,6 +62,8 @@ h1 {
     flex-direction: column;
   }
   .myPic {
+    max-width: 100%;
+    height: auto;
     margin-left: 0;
     margin-top: 20px;
   }
