@@ -43,6 +43,12 @@ const currentSection = ref<number>(0);
       case 'projects1':
         newSection = 1;
         break;
+      case 'backend1':
+        newSection = 2;
+        break;
+      case 'fullstack1':
+        newSection = 3;
+        break;
       case 'resume1':
         newSection = 4;
         break;
