@@ -20,7 +20,7 @@
 
 <style scoped>
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gaegu:wght@700&family=Metal+Mania&family=MuseoModerno:wght@700&family=Prompt:wght@300&family=Rubik+Puddles&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+And+White+Picture&family=Gaegu:wght@700&family=Metal+Mania&family=MuseoModerno:wght@700&family=Prompt:wght@300&family=Rubik+Puddles&family=Zen+Dots&display=swap');
 
 h1 {
   font-size: 25px;
@@ -30,7 +30,7 @@ h1 {
 
 .whoAmH1 {
   margin-bottom: 50px;
-  font-family: 'Gaegu';
+  font-family: 'Black And White Picture';
 }
 
 .aboutMeDiv {
