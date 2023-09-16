@@ -131,7 +131,7 @@ const totalFrontendProjects = ref(frontends.length);
           <div class="item" v-for="(frontend, index) in frontends" :key="frontend.title" :class="{ active: index === currentPosition }">
             <div class="projectDiv">
               <div class="projectContent">
-                <div class="text-center">{{ frontend.title }}</div>
+                <div class="text-center mt-2">{{ frontend.title }}</div>
                 <a :href="frontend.deployed" target="_blank">
               <img :src="`/new-portfolio${frontend.image}`" alt="Project Image" class="" />
             </a>
@@ -172,6 +172,11 @@ const totalFrontendProjects = ref(frontends.length);
 .mainProjectDivs {
   margin-top: 25px;
   min-height: 900px;
+}
+
+/* this is where i am styling the items in the carousel */
+div.item {
+    border-radius: 25px;
 }
 
 h3 {

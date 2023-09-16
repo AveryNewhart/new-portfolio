@@ -64,7 +64,7 @@ const fullstacks: Fullstack[] = [
         <div class="item" v-for="(fullstack, index) in fullstacks" :key="fullstack.title" :class="{ active: index === currentPosition }">
           <div class="projectDiv">
             <div class="projectContent">
-              <div class="text-center">{{ fullstack.title }}</div>
+              <div class="text-center mt-2">{{ fullstack.title }}</div>
               <img :src="`/new-portfolio${fullstack.image}`" alt="Project Image" class="" />
               <p class="mainP">Languages Used: <span class="mainS">{{ fullstack.language }}</span></p>
               <p class="mainP">Description: <span class="mainS">{{ fullstack.about }}</span></p>
@@ -104,6 +104,11 @@ const fullstacks: Fullstack[] = [
 .mainProjectDivs {
   margin-top: 25px;
   min-height: 900px;
+}
+
+/* this is where i am styling the items in the carousel */
+div.item {
+    border-radius: 25px;
 }
 
 h3 {

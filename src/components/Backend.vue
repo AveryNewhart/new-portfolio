@@ -76,7 +76,7 @@ const backends: Backend[] = [
         <div class="item" v-for="(backend, index) in backends" :key="backend.title" :class="{ active: index === currentPosition }">
           <div class="projectDiv">
             <div class="projectContent">
-              <div class="text-center">{{ backend.title }}</div>
+              <div class="text-center mt-2">{{ backend.title }}</div>
               <img :src="`/new-portfolio${backend.image}`" alt="Project Image" class="" />
               <p class="mainP">Languages Used: <span class="mainS">{{ backend.language }}</span></p>
               <p class="mainP">Description: <span class="mainS">{{ backend.about }}</span></p>
@@ -125,6 +125,11 @@ h3 {
 img {
   height: 250px;
   width: 300px;
+}
+
+/* this is where i am styling the items in the carousel */
+div.item {
+    border-radius: 25px;
 }
 
 .bigBody {
