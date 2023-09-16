@@ -19,7 +19,7 @@ import About from './components/About.vue';
 import Projects from './components/Projects.vue';
 import Resume from './components/Resume.vue';
 import Contact from './components/Contact.vue';
-// import Footer from './components/Footer.vue';
+import Footer from './components/Footer.vue';
 import Backend from './components/Backend.vue';
 import FullStack from './components/Fullstack.vue';
 
@@ -87,9 +87,9 @@ const currentSection = ref<number>(0);
       <div class="section contactDiv" v-if="currentSection === 5">  
         <Contact id="contact1"/>
       </div>
-      <!-- <div>
+      <div>
         <Footer />
-      </div> -->
+      </div>
       <!-- <font-awesome-icon icon="fa-brands fa-twitter" /> -->
       <!-- <font-awesome-icon :icon="['fas', 'arrow-left']" /> -->
       <div class="arrow left" @click="navigateTo('prev')" v-show="currentSection > 0"><font-awesome-icon :icon="['fas', 'arrow-left']" beat-fade /></div>

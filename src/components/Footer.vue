@@ -3,28 +3,24 @@
 
 <template>
   <div class="mainDivFoot">   
-    <footer class="">
-      <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-        <span class="text-sm sm:text-center">Avery Newhart
-        </span>
-      <ul class="flex flex-wrap items-center mt-3 text-sm font-medium sm:mt-0">
-        <li>
-            <a href="#about1" class="mr-4 hover:underline md:mr-6 ">About</a>
-        </li>
-        <li>
-            <a href="#contact1" class="mr-4 hover:underline">Contact</a>
-        </li>
-        <li>
-            <a href="#projects1" class="mr-4 hover:underline">Projects</a>
-        </li>
-        <li>
-            <a href="#resume1" class="mr-4 hover:underline">Resume</a>
-        </li>
-      </ul>
+    <footer class="flex justify-center">
+      <div class="p-4 md:flex md:items-center md:justify-between">
+        <ul class="flex justify-center flex-wrap items-center text-sm font-medium sm:mt-0">
+          <li>
+            <a href="" class="mr-4 md:mr-6 ">github icon</a>
+          </li>
+          <li>
+            <a href="" class="mr-4">linkedIn icon</a>
+          </li>
+          <li>
+            <a href="" class="mr-4">twitter</a>
+          </li>
+        </ul>
       </div>
     </footer>
   </div>
 </template>
+
 
 <style scoped>
 
