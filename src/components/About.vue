@@ -20,6 +20,8 @@
 
 <style scoped>
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gaegu:wght@700&family=Metal+Mania&family=MuseoModerno:wght@700&family=Prompt:wght@300&family=Rubik+Puddles&family=Zen+Dots&display=swap');
+
 h1 {
   font-size: 25px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect, with no background color, it just makes the h1 pop more since same background color as pages background */
@@ -28,6 +30,7 @@ h1 {
 
 .whoAmH1 {
   margin-bottom: 50px;
+  font-family: 'Gaegu';
 }
 
 .aboutMeDiv {
