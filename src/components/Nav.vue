@@ -187,7 +187,7 @@ methods: {
   padding: 10px 20px;
   font-size: 0.8rem;
   font-family: bolder;
-  font-family: "Monaco";
+  font-family: "Gaegu";
   border-radius: 16px;
   background-image: linear-gradient(315deg, rgb(29, 255, 25) 3%, rgba(48, 238, 226, 1) 38%, rgba(60, 132, 206, 1) 68%, rgba(101, 0, 94, 1) 98%); 
   box-shadow: rgba(50, 50, 93, 1) 0px 50px 100px -20px,
