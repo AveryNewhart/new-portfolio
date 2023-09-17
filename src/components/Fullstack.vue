@@ -57,7 +57,7 @@ const fullstacks: Fullstack[] = [
 <template>
   <div class="mainProjDiv">
   <div class="mainProjectDivs">
-      <h3>Fullstack</h3>
+      <h3 class="mt-2">Fullstack Projects</h3>
     <div class="bigBody">
       <input type="radio" name="2position" v-for="(fullstack, index) in fullstacks" :key="fullstack.title" :id="'2position-' + index" @click="updatePosition(index)" />
       <main id="carousel2">

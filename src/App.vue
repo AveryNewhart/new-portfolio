@@ -102,10 +102,10 @@ const currentSection = ref<number>(0);
 
 <style scoped>
 
-.projectDiv {
+/* .projectDiv {
   margin-top: 10px;
   margin-bottom: 10px;
-}
+} */
 
 .section {
   min-height: 100vh;
@@ -113,7 +113,7 @@ const currentSection = ref<number>(0);
 
 .arrow {
     position: fixed;
-    top: 73%;
+    top: 97%;
     transform: translateY(-50%);
     /* width: 30px;
     height: 30px; */

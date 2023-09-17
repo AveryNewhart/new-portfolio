@@ -121,10 +121,8 @@ const totalFrontendProjects = ref(frontends.length);
 
 <template>
   <div class="mainProjDiv">
-  <h1 class="text-center">Projects</h1>
-
   <div class="mainProjectDivs">
-    <h3>Frontend</h3>
+    <h3 class="mt-2">Frontend Projects</h3>
       <div class="bigBody">
         <input type="radio" name="position" v-for="(frontend, index) in frontends" :key="frontend.title" :id="'position-' + index" @click="updatePosition(index)" />
         <main id="carousel" :style="{ '--total-frontend-projects': totalFrontendProjects }">
@@ -170,7 +168,7 @@ const totalFrontendProjects = ref(frontends.length);
 }
 
 .mainProjectDivs {
-  margin-top: 25px;
+  /* margin-top: 25px; */
   min-height: 900px;
 }
 
