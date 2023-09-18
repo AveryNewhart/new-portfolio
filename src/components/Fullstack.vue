@@ -67,7 +67,7 @@ const fullstacks: Fullstack[] = [
               <div class="text-center mt-2">{{ fullstack.title }}</div>
               <img :src="`/new-portfolio${fullstack.image}`" alt="Project Image" class="" />
               <p class="mainP">Languages Used: <span class="mainS">{{ fullstack.language }}</span></p>
-              <p class="mainP">Description: <span class="mainS">{{ fullstack.about }}</span></p>
+              <p class="mainP">Description: <span class="mainSA">{{ fullstack.about }}</span></p>
               <a :href="fullstack.repo" class="" target="_blank">Github Repo</a>
             </div>
           </div>
@@ -83,17 +83,24 @@ const fullstacks: Fullstack[] = [
 
 .mainP {
   font-weight: bold;
+  font-size: 1rem;
+  color: #333;
 }
 
 .mainS {
   font-weight: normal;
+  /* font-size: .90rem; */
+}
+
+.mainSA {
+  font-weight: normal;
+  font-size: .90rem;
 }
 
 .projectContent a {
   display: block;
   text-align: center;
   margin: 0 auto;
-  /* z-index: 99; */
 }
 
 
@@ -106,14 +113,16 @@ const fullstacks: Fullstack[] = [
   min-height: 900px;
 }
 
-/* this is where i am styling the items in the carousel */
 div.item {
     border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h3 {
   border: 1px dashed white;
   text-align: center;
+  color: #333;
+  font-size: 1.5rem;
 }
 
 img {
