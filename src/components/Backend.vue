@@ -76,7 +76,7 @@ const backends: Backend[] = [
         <div class="item" v-for="(backend, index) in backends" :key="backend.title" :class="{ active: index === currentPosition }">
           <div class="projectDiv">
             <div class="projectContent">
-              <div class="text-center mt-2">{{ backend.title }}</div>
+              <div class="text-center mt-2 titleP">{{ backend.title }}</div>
               <img :src="`/new-portfolio${backend.image}`" alt="Project Image" class="" />
               <p class="mainP">Languages Used: <span class="mainS">{{ backend.language }}</span></p>
               <p class="mainP">Description: <span class="mainS">{{ backend.about }}</span></p>
@@ -105,6 +105,10 @@ const backends: Backend[] = [
   text-align: center;
   margin: 0 auto;
   /* z-index: 99; */
+}
+
+.titleP {
+  font-weight: bold;
 }
 
 

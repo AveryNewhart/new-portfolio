@@ -129,7 +129,7 @@ const totalFrontendProjects = ref(frontends.length);
           <div class="item" v-for="(frontend, index) in frontends" :key="frontend.title" :class="{ active: index === currentPosition }">
             <div class="projectDiv">
               <div class="projectContent">
-                <div class="text-center mt-2">{{ frontend.title }}</div>
+                <div class="text-center mt-2 titleP">{{ frontend.title }}</div>
                 <a :href="frontend.deployed" target="_blank">
               <img :src="`/new-portfolio${frontend.image}`" alt="Project Image" class="" />
             </a>
@@ -153,6 +153,10 @@ const totalFrontendProjects = ref(frontends.length);
 
 .mainS {
   font-weight: normal;
+}
+
+.titleP {
+  font-weight: bold;
 }
 
 .projectContent a {

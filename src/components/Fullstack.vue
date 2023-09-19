@@ -64,7 +64,7 @@ const fullstacks: Fullstack[] = [
         <div class="item" v-for="(fullstack, index) in fullstacks" :key="fullstack.title" :class="{ active: index === currentPosition }">
           <div class="projectDiv">
             <div class="projectContent">
-              <div class="text-center mt-2">{{ fullstack.title }}</div>
+              <div class="text-center mt-2 titleP">{{ fullstack.title }}</div>
               <img :src="`/new-portfolio${fullstack.image}`" alt="Project Image" class="" />
               <p class="mainP">Languages Used: <span class="mainS">{{ fullstack.language }}</span></p>
               <p class="mainP">Description: <span class="mainSA">{{ fullstack.about }}</span></p>
@@ -95,6 +95,10 @@ const fullstacks: Fullstack[] = [
 .mainSA {
   font-weight: normal;
   font-size: .90rem;
+}
+
+.titleP {
+  font-weight: bold;
 }
 
 .projectContent a {
