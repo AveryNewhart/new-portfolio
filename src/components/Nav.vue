@@ -108,13 +108,13 @@ methods: {
               class="mt-2 space-y-2 bg-white border border-gray-200 py-2 px-4 rounded-md shadow-lg"
             >
               <li>
-                <a @click="navigateTo('projects1')">Frontend</a>
+                <a class="projectButtons" @click="navigateTo('projects1')">Frontend</a>
               </li>
               <li>
-                <a @click="navigateTo('backend1')">Backend</a>
+                <a class="projectButtons" @click="navigateTo('backend1')">Backend</a>
               </li>
               <li>
-                <a @click="navigateTo('fullstack1')">Fullstack</a>
+                <a class="projectButtons" @click="navigateTo('fullstack1')">Fullstack</a>
               </li>
             </ul>
           </li>
@@ -134,6 +134,10 @@ methods: {
 
 .mainDivNav {
   border-bottom: 5px solid black;
+}
+
+.projectButtons {
+  cursor: pointer;
 }
 
 .myName {
