@@ -79,13 +79,13 @@ methods: {
             md:mt-0
           "
         >
-          <li class="text-sm font-bold hover:text-blue-400">
+          <li class="text-sm font-bold">
             <a @click="navigateTo('about1')" class="navBut">About</a>
           </li>
           <!-- <li class="text-sm font-bold hover:text-blue-400">
             <a @click="navigateTo('projects1')" class="navBut">Projects</a>
           </li> -->
-          <li class="group text-sm font-bold hover:text-blue-400">
+          <li class="group text-sm font-bold">
             <button @click="toggleDropdown" class="navBut dropdown-button">
               Projects
               <svg
@@ -118,10 +118,10 @@ methods: {
               </li>
             </ul>
           </li>
-          <li class="text-sm font-bold hover:text-blue-400">
+          <li class="text-sm font-bold">
             <a @click="navigateTo('resume1')" class="navBut">Resume</a>
           </li>
-          <li class="text-sm font-bold hover:text-blue-400">
+          <li class="text-sm font-bold">
             <a @click="navigateTo('contact1')" class="navBut">Contact</a>
           </li>
         </ul>
