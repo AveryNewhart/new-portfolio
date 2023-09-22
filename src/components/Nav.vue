@@ -105,7 +105,7 @@ methods: {
             <!-- Dropdown menu -->
             <ul
               v-if="dropdownOpen"
-              class="mt-2 space-y-2 bg-white border border-gray-200 py-2 px-4 rounded-md shadow-lg"
+              class="mt-2 space-y-2 border border-gray-200 py-2 px-4 rounded-md shadow-lg"
             >
               <li>
                 <a class="projectButtons" @click="navigateTo('projects1')">Frontend</a>
