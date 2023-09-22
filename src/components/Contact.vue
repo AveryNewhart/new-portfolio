@@ -8,7 +8,7 @@
           type="text"
           id="name"
           v-model="name"
-          class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-500"
+          class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring "
           required
         />
       </div>
@@ -18,7 +18,7 @@
           type="text"
           id="subject"
           v-model="subject"
-          class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-500"
+          class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring"
           required
         />
       </div>
@@ -27,7 +27,7 @@
         <textarea
           id="message"
           v-model="message"
-          class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-500"
+          class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring"
           rows="4"
           required
         ></textarea>
@@ -35,7 +35,7 @@
       <div class="text-center">
         <button
           type="submit"
-          class="px-6 py-3 text-white bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-500"
+          class="px-6 py-3 text-white bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:ring "
         >
           Send
         </button>
