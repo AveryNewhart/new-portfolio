@@ -5,6 +5,16 @@
   <div class="mainResDiv">
     <h1 class="text-3xl font-semibold mb-4">Resume</h1>
     <h2>do i make this a section like my actual resume how i have multiple skill sections?</h2>
+    <h2>Programming Languages</h2>
+    <h2>Frontend</h2>
+    <h2>Frontend Build Tools</h2>
+    <h2>Backend</h2>
+    <h2>Databases</h2>
+    <h2>API Integration</h2>
+    <h2>CSS Frameworks</h2>
+    <h2>Tools</h2>
+    <h2>Web Design</h2>
+    <h2>Certificates</h2>
     <div class="skills-section">
       <div class="md:flex">
         <!-- Frontend Skills -->
