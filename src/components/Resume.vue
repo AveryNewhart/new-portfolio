@@ -4,6 +4,7 @@
 <template>
   <div class="mainResDiv">
     <h1 class="text-3xl font-semibold mb-4">Resume</h1>
+    <h2>do i make this a section like my actual resume how i have multiple skill sections?</h2>
     <div class="skills-section">
       <div class="md:flex">
         <!-- Frontend Skills -->
@@ -12,23 +13,23 @@
           <ul>
             <li class="skill">
               <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-              <p>Frontend Skill 1</p>
+              <p>HTML</p>
             </li>
             <li class="skill">
               <!-- <img src="/images/frontend-icon2.png" alt="Frontend Skill 2" class="w-12 h-12" /> -->
-              <p>Frontend Skill 2</p>
+              <p>CSS</p>
             </li>
             <li class="skill">
               <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-              <p>Frontend Skill 1</p>
+              <p>JavaScript</p>
             </li>
             <li class="skill">
               <!-- <img src="/images/frontend-icon2.png" alt="Frontend Skill 2" class="w-12 h-12" /> -->
-              <p>Frontend Skill 2</p>
+              <p>TypeScript</p>
             </li>
             <li class="skill">
               <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-              <p>Frontend Skill 1</p>
+              <p>Vue</p>
             </li>
             <li class="skill">
               <!-- <img src="/images/frontend-icon2.png" alt="Frontend Skill 2" class="w-12 h-12" /> -->
