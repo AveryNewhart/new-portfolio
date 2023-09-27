@@ -2,10 +2,10 @@
 </script>
 
 <template>
-  <div class="mainResDiv">
-    <h1 class="text-3xl font-semibold mb-4">Resume</h1>
-    <h2>add new resume file when i finish this page, new website links and fix skills section on it</h2>
+    <h1 class="text-3xl font-semibold mb-4  mt-4 text-center">Resume</h1>
+    <!-- <h2>add new resume file when i finish this page, new website links and fix skills section on it</h2> -->
 
+<div class="mainResDiv">
     <div class="skill-section">
     <h2>Programming Languages</h2>
       <ul class="skills-list">
@@ -194,10 +194,17 @@
 .mainResDiv {
   border: 2px solid silver;
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .skill-section {
+  flex-basis: calc(33.33% -20px);
   margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .skills-list {
