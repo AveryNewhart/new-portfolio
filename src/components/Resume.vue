@@ -4,7 +4,8 @@
 <template>
   <div class="mainResDiv">
     <h1 class="text-3xl font-semibold mb-4">Resume</h1>
-    <h2>do i make this a section like my actual resume how i have multiple skill sections?</h2>
+    <h2>add new resume file when i finish this page, new website links and fix skills section on it</h2>
+
     <div>
     <h2>Programming Languages</h2>
       <ul>
@@ -14,15 +15,97 @@
         </li>
       </ul>
     </div>
+
+    <div>
     <h2>Frontend</h2>
+    <ul>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
+      </ul>
+    </div>  
+
+    <div>
     <h2>Frontend Build Tools</h2>
+      <ul>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
+      </ul>
+    </div>
+
+    <div>
     <h2>Backend</h2>
+      <ul>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
+      </ul>
+    </div>
+
+    <div>
     <h2>Databases</h2>
+      <ul>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
+      </ul>
+    </div>
+
+    <div>
     <h2>API Integration</h2>
+      <ul>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
+      </ul>
+    </div>
+
+    <div>
     <h2>CSS Frameworks</h2>
+      <ul>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
+      </ul>
+    </div>
+
+    <div>
     <h2>Tools</h2>
+      <ul>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>Heroku</p>
+        </li>
+      </ul>
+    </div> 
+
+    <div>
     <h2>Web Design</h2>
+      <ul>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
+      </ul>
+    </div>  
+
+    <div>
     <h2>Certificates</h2>
+      <ul>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
+      </ul>
+    </div>  
+
     <div class="skills-section">
       <div class="md:flex">
         <!-- Frontend Skills -->
