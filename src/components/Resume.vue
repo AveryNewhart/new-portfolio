@@ -6,6 +6,7 @@
     <!-- <h2>add new resume file when i finish this page, new website links and fix skills section on it</h2> -->
 
 <div class="mainResDiv">
+  <div class="skills-container">
     <div class="skill-section">
     <h2>Programming Languages</h2>
       <ul class="skills-list">
@@ -181,6 +182,7 @@
         </li>
       </ul>
     </div>  
+  </div>
 
     
     <a 
@@ -194,14 +196,20 @@
 .mainResDiv {
   border: 2px solid silver;
   padding: 20px;
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-between; */
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three sections per row */
+  gap: 20px; /* Adjust the gap between sections */
 }
 
 .skill-section {
-  flex-basis: calc(33.33% -20px);
-  margin-bottom: 20px;
+  /* flex-basis: calc(33.33% -20px); */
+  /* margin-bottom: 20px; */
   border: 1px solid black;
   padding: 10px;
   border-radius: 5px;
@@ -225,8 +233,8 @@
 
 @media (max-width: 768px) {
 
-  .skill-section {
-    width: 100%; 
+  .skills-container {
+    grid-template-columns: repeat(1, 1fr); /* Single column layout on smaller screens */
   }
 
 }
