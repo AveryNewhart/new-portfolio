@@ -6,9 +6,9 @@
     <h1 class="text-3xl font-semibold mb-4">Resume</h1>
     <h2>add new resume file when i finish this page, new website links and fix skills section on it</h2>
 
-    <div>
+    <div class="skill-section">
     <h2>Programming Languages</h2>
-      <ul>
+      <ul class="skills-list">
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
             <p>HTML</p>
@@ -32,9 +32,9 @@
       </ul>
     </div>
 
-    <div>
+    <div class="skill-section">
     <h2>Frontend</h2>
-    <ul>
+    <ul class="skills-list">
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
             <p>React.js</p>
@@ -46,9 +46,9 @@
       </ul>
     </div>  
 
-    <div>
+    <div class="skill-section">
     <h2>Frontend Build Tools</h2>
-      <ul>
+      <ul class="skills-list">
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
             <p>Vite</p>
@@ -60,9 +60,9 @@
       </ul>
     </div>
 
-    <div>
+    <div class="skill-section">
     <h2>Backend</h2>
-      <ul>
+      <ul class="skills-list">
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
             <p>Node.js</p>
@@ -82,9 +82,9 @@
       </ul>
     </div>
 
-    <div>
+    <div class="skill-section">
     <h2>Databases</h2>
-      <ul>
+      <ul class="skills-list">
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
             <p>MongoDB</p>
@@ -100,9 +100,9 @@
       </ul>
     </div>
 
-    <div>
+    <div class="skill-section">
     <h2>API Integration</h2>
-      <ul>
+      <ul class="skills-list">
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
             <p>GraphQL</p>
@@ -114,9 +114,9 @@
       </ul>
     </div>
 
-    <div>
+    <div class="skill-section">
     <h2>CSS Frameworks</h2>
-      <ul>
+      <ul class="skills-list">
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
             <p>Bootstrap</p>
@@ -128,9 +128,9 @@
       </ul>
     </div>
 
-    <div>
+    <div class="skill-section">
     <h2>Tools</h2>
-      <ul>
+      <ul class="skills-list">
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
             <p>Heroku</p>
@@ -150,9 +150,9 @@
       </ul>
     </div> 
 
-    <div>
+    <div class="skill-section">
     <h2>Web Design</h2>
-      <ul>
+      <ul class="skills-list">
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
             <p>Responsive Web Design</p>
@@ -164,9 +164,9 @@
       </ul>
     </div>  
 
-    <div>
+    <div class="skill-section">
     <h2>Certificates</h2>
-      <ul>
+      <ul class="skills-list">
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
             <p>Full Stack Web Developer</p>
