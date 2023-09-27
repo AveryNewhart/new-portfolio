@@ -13,12 +13,32 @@
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
             <p>HTML</p>
         </li>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
       </ul>
     </div>
 
     <div>
     <h2>Frontend</h2>
     <ul>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
             <p>HTML</p>
@@ -33,12 +53,24 @@
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
             <p>HTML</p>
         </li>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
       </ul>
     </div>
 
     <div>
     <h2>Backend</h2>
       <ul>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
             <p>HTML</p>
@@ -53,12 +85,24 @@
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
             <p>HTML</p>
         </li>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
       </ul>
     </div>
 
     <div>
     <h2>API Integration</h2>
       <ul>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
             <p>HTML</p>
@@ -73,6 +117,10 @@
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
             <p>HTML</p>
         </li>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
       </ul>
     </div>
 
@@ -82,6 +130,18 @@
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
             <p>Heroku</p>
+        </li>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
         </li>
       </ul>
     </div> 
@@ -93,12 +153,24 @@
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
             <p>HTML</p>
         </li>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
       </ul>
     </div>  
 
     <div>
     <h2>Certificates</h2>
       <ul>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>HTML</p>
+        </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
             <p>HTML</p>
