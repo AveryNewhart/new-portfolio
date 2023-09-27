@@ -15,19 +15,19 @@
         </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>CSS</p>
         </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>JavaScript(ES6+)</p>
         </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>TypeScript</p>
         </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>PHP</p>
         </li>
       </ul>
     </div>
@@ -37,11 +37,11 @@
     <ul>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>React.js</p>
         </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>Vue.js</p>
         </li>
       </ul>
     </div>  
@@ -51,11 +51,11 @@
       <ul>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>Vite</p>
         </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>React</p>
         </li>
       </ul>
     </div>
@@ -65,15 +65,19 @@
       <ul>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>Node.js</p>
         </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>Express</p>
         </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>PHP</p>
+        </li>
+        <li class="skill">
+            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <p>Apollo</p>
         </li>
       </ul>
     </div>
@@ -83,15 +87,15 @@
       <ul>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>MongoDB</p>
         </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>MySQL</p>
         </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>NoSQL</p>
         </li>
       </ul>
     </div>
@@ -101,11 +105,11 @@
       <ul>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>GraphQL</p>
         </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>RESTful Web Services</p>
         </li>
       </ul>
     </div>
@@ -115,11 +119,11 @@
       <ul>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>Bootstrap</p>
         </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>Tailwind CSS</p>
         </li>
       </ul>
     </div>
@@ -133,15 +137,15 @@
         </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>Git</p>
         </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>Github</p>
         </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>VS Code</p>
         </li>
       </ul>
     </div> 
@@ -151,11 +155,11 @@
       <ul>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>Responsive Web Design</p>
         </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>UI/UX Principles</p>
         </li>
       </ul>
     </div>  
@@ -165,15 +169,15 @@
       <ul>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>Full Stack Web Developer</p>
         </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>DoD Weather Certificate</p>
         </li>
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
-            <p>HTML</p>
+            <p>Microsoft Office</p>
         </li>
       </ul>
     </div>  
