@@ -8,7 +8,7 @@
 <div class="mainResDiv">
   <div class="skills-container">
     <div class="skill-section">
-    <h2>Programming Languages</h2>
+    <h2 class="text-center mb-2 font-bold">Programming Languages</h2>
       <ul class="skills-list">
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
@@ -34,7 +34,7 @@
     </div>
 
     <div class="skill-section">
-    <h2>Frontend</h2>
+    <h2 class="text-center mb-2 font-bold">Frontend</h2>
     <ul class="skills-list">
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
@@ -48,7 +48,7 @@
     </div>  
 
     <div class="skill-section">
-    <h2>Frontend Build Tools</h2>
+    <h2 class="text-center mb-2 font-bold">Frontend Build Tools</h2>
       <ul class="skills-list">
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
@@ -62,7 +62,7 @@
     </div>
 
     <div class="skill-section">
-    <h2>Backend</h2>
+    <h2 class="text-center mb-2 font-bold">Backend</h2>
       <ul class="skills-list">
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
@@ -84,7 +84,7 @@
     </div>
 
     <div class="skill-section">
-    <h2>Databases</h2>
+    <h2 class="text-center mb-2 font-bold">Databases</h2>
       <ul class="skills-list">
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
@@ -102,7 +102,7 @@
     </div>
 
     <div class="skill-section">
-    <h2>API Integration</h2>
+    <h2 class="text-center mb-2 font-bold">API Integration</h2>
       <ul class="skills-list">
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
@@ -116,7 +116,7 @@
     </div>
 
     <div class="skill-section">
-    <h2>CSS Frameworks</h2>
+    <h2 class="text-center mb-2 font-bold">CSS Frameworks</h2>
       <ul class="skills-list">
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
@@ -130,7 +130,7 @@
     </div>
 
     <div class="skill-section">
-    <h2>Tools</h2>
+    <h2 class="text-center mb-2 font-bold">Tools</h2>
       <ul class="skills-list">
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
@@ -152,7 +152,7 @@
     </div> 
 
     <div class="skill-section">
-    <h2>Web Design</h2>
+    <h2 class="text-center mb-2 font-bold">Web Design</h2>
       <ul class="skills-list">
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
@@ -166,7 +166,7 @@
     </div>  
 
     <div class="skill-section">
-    <h2>Certificates</h2>
+    <h2 class="text-center mb-2 font-bold">Certificates</h2>
       <ul class="skills-list">
         <li class="skill">
             <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
