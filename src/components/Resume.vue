@@ -194,7 +194,19 @@
 .mainResDiv {
   border: 2px solid silver;
   padding: 20px;
-  height: 900px;
+}
+
+.skill-section {
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  margin-bottom: 10px;
 }
 
 .resLink {
@@ -205,9 +217,11 @@
 
 
 @media (max-width: 768px) {
-  .md:flex {
-    flex-direction: column; 
+
+  .skill-section {
+    width: 100%; 
   }
+
 }
 </style>
 
