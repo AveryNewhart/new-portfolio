@@ -83,20 +83,28 @@
     <h2 class="text-center mb-2 font-bold">Backend</h2>
       <ul class="skills-list">
         <li class="skill">
-            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+          <div class="skill-item">
             <p>Node.js</p>
+            <img src="/images/nodeicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          </div>
         </li>
         <li class="skill">
-            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+          <div class="skill-item">
             <p>Express</p>
+            <img src="/images/expressicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          </div>
         </li>
         <li class="skill">
-            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+          <div class="skill-item">
             <p>PHP</p>
+            <img src="/images/phpicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          </div>
         </li>
         <li class="skill">
-            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+          <div class="skill-item">
             <p>Apollo</p>
+            <img src="/images/apolloicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          </div>
         </li>
       </ul>
     </div>
