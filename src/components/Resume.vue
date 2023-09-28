@@ -65,12 +65,16 @@
     <h2 class="text-center mb-2 font-bold">Frontend Build Tools</h2>
       <ul class="skills-list">
         <li class="skill">
-            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+          <div class="skill-item">
             <p>Vite</p>
+            <img src="/images/viteicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          </div>
         </li>
         <li class="skill">
-            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+          <div class="skill-item">
             <p>React</p>
+            <img src="/images/reactjsicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          </div>
         </li>
       </ul>
     </div>
