@@ -113,16 +113,22 @@
     <h2 class="text-center mb-2 font-bold">Databases</h2>
       <ul class="skills-list">
         <li class="skill">
-            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+          <div class="skill-item">
             <p>MongoDB</p>
+            <img src="/images/mongoicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          </div>
         </li>
         <li class="skill">
-            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+          <div class="skill-item">
             <p>MySQL</p>
+            <img src="/images/mysqlicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          </div>
         </li>
         <li class="skill">
-            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+          <div class="skill-item">
             <p>NoSQL</p>
+            <img src="/images/nosqlicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          </div>
         </li>
       </ul>
     </div>
