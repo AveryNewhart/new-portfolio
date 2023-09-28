@@ -203,12 +203,16 @@
     <h2 class="text-center mb-2 font-bold">Web Design</h2>
       <ul class="skills-list">
         <li class="skill">
-            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+          <div class="skill-item">
             <p>Responsive Web Design</p>
+            <img src="/images/responsiveicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          </div>
         </li>
         <li class="skill">
-            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+          <div class="skill-item">
             <p>UI/UX Principles</p>
+            <img src="/images/uiuxicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          </div>
         </li>
       </ul>
     </div>  
