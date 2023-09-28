@@ -11,23 +11,23 @@
     <h2 class="text-center mb-2 font-bold">Programming Languages</h2>
       <ul class="skills-list">
         <li class="skill">
-            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <img src="/images/htmlicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
             <p>HTML</p>
         </li>
         <li class="skill">
-            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <img src="/images/cssicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
             <p>CSS</p>
         </li>
         <li class="skill">
-            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <img src="/images/javascripticon.jpeg" alt="Frontend Skill 1" class="w-12 h-12" />
             <p>JavaScript(ES6+)</p>
         </li>
         <li class="skill">
-            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <img src="/images/typescripticon.png" alt="Frontend Skill 1" class="w-12 h-12" />
             <p>TypeScript</p>
         </li>
         <li class="skill">
-            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+            <img src="/images/phpicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
             <p>PHP</p>
         </li>
       </ul>
