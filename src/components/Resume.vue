@@ -137,12 +137,16 @@
     <h2 class="text-center mb-2 font-bold">API Integration</h2>
       <ul class="skills-list">
         <li class="skill">
-            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+          <div class="skill-item">
             <p>GraphQL</p>
+            <img src="/images/graphicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          </div>
         </li>
         <li class="skill">
-            <!-- <img src="/images/frontend-icon1.png" alt="Frontend Skill 1" class="w-12 h-12" /> -->
+          <div class="skill-item">
             <p>RESTful Web Services</p>
+            <img src="/images/restulicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          </div>
         </li>
       </ul>
     </div>
