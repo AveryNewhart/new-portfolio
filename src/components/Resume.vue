@@ -11,24 +11,34 @@
     <h2 class="text-center mb-2 font-bold">Programming Languages</h2>
       <ul class="skills-list">
         <li class="skill">
-            <img src="/images/htmlicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          <div class="skill-item">
             <p>HTML</p>
+            <img src="/images/htmlicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          </div>
         </li>
         <li class="skill">
-            <img src="/images/cssicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          <div class="skill-item">
             <p>CSS</p>
+            <img src="/images/cssicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          </div>
         </li>
         <li class="skill">
-            <img src="/images/javascripticon.jpeg" alt="Frontend Skill 1" class="w-12 h-12" />
+          <div class="skill-item">
             <p>JavaScript(ES6+)</p>
+            <img src="/images/javascripticon.jpeg" alt="Frontend Skill 1" class="w-12 h-12" />
+          </div>
         </li>
         <li class="skill">
-            <img src="/images/typescripticon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          <div class="skill-item">
             <p>TypeScript</p>
+            <img src="/images/typescripticon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          </div>
         </li>
         <li class="skill">
-            <img src="/images/phpicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          <div class="skill-item">
             <p>PHP</p>
+            <img src="/images/phpicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+          </div>
         </li>
       </ul>
     </div>
@@ -199,6 +209,16 @@
   /* display: flex;
   flex-wrap: wrap;
   justify-content: space-between; */
+}
+
+.skill-item {
+    display: flex;
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Vertically center items */
+}
+
+.skill-item img {
+    margin-right: 10px; /* Adjust the margin between the image and skill name */
 }
 
 .skills-container {
