@@ -8,7 +8,7 @@
 <div class="mainResDiv">
   <div class="skills-container">
     <div class="skill-section">
-    <h2 class="text-center mb-2 font-bold">Programming Languages</h2>
+    <h2 class="text-center mb-2 skillHead">Programming Languages</h2>
       <ul class="skills-list">
         <li class="skill">
           <div class="skill-item">
@@ -44,7 +44,7 @@
     </div>
 
     <div class="skill-section">
-    <h2 class="text-center mb-2 font-bold">Frontend</h2>
+    <h2 class="text-center mb-2 skillHead">Frontend</h2>
     <ul class="skills-list">
         <li class="skill">
           <div class="skill-item">
@@ -62,7 +62,7 @@
     </div>  
 
     <div class="skill-section">
-    <h2 class="text-center mb-2 font-bold">Frontend Build Tools</h2>
+    <h2 class="text-center mb-2 skillHead">Frontend Build Tools</h2>
       <ul class="skills-list">
         <li class="skill">
           <div class="skill-item">
@@ -80,7 +80,7 @@
     </div>
 
     <div class="skill-section">
-    <h2 class="text-center mb-2 font-bold">Backend</h2>
+    <h2 class="text-center mb-2 skillHead">Backend</h2>
       <ul class="skills-list">
         <li class="skill">
           <div class="skill-item">
@@ -110,7 +110,7 @@
     </div>
 
     <div class="skill-section">
-    <h2 class="text-center mb-2 font-bold">Databases</h2>
+    <h2 class="text-center mb-2 skillHead">Databases</h2>
       <ul class="skills-list">
         <li class="skill">
           <div class="skill-item">
@@ -134,7 +134,7 @@
     </div>
 
     <div class="skill-section">
-    <h2 class="text-center mb-2 font-bold">API Integration</h2>
+    <h2 class="text-center mb-2 skillHead">API Integration</h2>
       <ul class="skills-list">
         <li class="skill">
           <div class="skill-item">
@@ -152,7 +152,7 @@
     </div>
 
     <div class="skill-section">
-    <h2 class="text-center mb-2 font-bold">CSS Frameworks</h2>
+    <h2 class="text-center mb-2 skillHead">CSS Frameworks</h2>
       <ul class="skills-list">
         <li class="skill">
           <div class="skill-item">
@@ -170,7 +170,7 @@
     </div>
 
     <div class="skill-section">
-    <h2 class="text-center mb-2 font-bold">Tools</h2>
+    <h2 class="text-center mb-2 skillHead">Tools</h2>
       <ul class="skills-list">
         <li class="skill">
           <div class="skill-item">
@@ -200,7 +200,7 @@
     </div> 
 
     <div class="skill-section">
-    <h2 class="text-center mb-2 font-bold">Web Design</h2>
+    <h2 class="text-center mb-2 skillHead">Web Design</h2>
       <ul class="skills-list">
         <li class="skill">
           <div class="skill-item">
@@ -218,7 +218,7 @@
     </div>  
 
     <div class="skill-section">
-    <h2 class="text-center mb-2 font-bold">Certificates</h2>
+    <h2 class="text-center mb-2 skillHead">Certificates</h2>
       <ul class="skills-list">
         <li class="skill">
           <div class="skill-item">
@@ -252,7 +252,6 @@
 
 <style scoped>
 .mainResDiv {
-  border: 2px solid silver;
   padding: 20px;
   /* display: flex;
   flex-wrap: wrap;
@@ -261,33 +260,35 @@
 
 .skill-item {
     display: flex;
-    justify-content: space-between; /* Align items horizontally */
-    align-items: center; /* Vertically center items */
+    justify-content: space-between; 
+    align-items: center;
 }
 
 .skill-item img {
-    margin-right: 10px; /* Adjust the margin between the image and skill name */
+    margin-right: 10px; /* the margin between the image and skill name */
+    border-radius: 5px;
 }
 
 .skills-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Three sections per row */
-  gap: 20px; /* Adjust the gap between sections */
+  gap: 20px; /* the gap between sections */
 }
 
 .skill-section {
   /* flex-basis: calc(33.33% -20px); */
   /* margin-bottom: 20px; */
-  border: 1px solid black;
+  border: 5px solid white;
   padding: 10px;
-  border-radius: 5px;
-  height: 350px;
+  border-radius: 10px;
+  height: 360px;
   overflow: scroll;
 }
 
 .skills-list {
   list-style: none;
   padding: 0;
+  font-weight: bold;
 }
 
 .skills-list li {
@@ -299,12 +300,19 @@
   justify-content: center;
 }
 
+.skillHead {
+  border-bottom: 5px solid white;
+  padding-bottom: 5px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
 
 
 @media (max-width: 768px) {
 
   .skills-container {
-    grid-template-columns: repeat(1, 1fr); /* Single column layout on smaller screens */
+    grid-template-columns: repeat(1, 1fr); /* single column layout on smaller screens */
   }
 
 }
