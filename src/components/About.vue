@@ -34,9 +34,7 @@ h1 {
 }
 
 .aboutMeDiv {
-  border: 2px solid red;
   padding: 20px;
-  height: 900px;
 }
 
 .aboutContent {
