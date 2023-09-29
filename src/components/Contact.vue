@@ -35,7 +35,7 @@
       <div class="text-center">
         <button
           type="submit"
-          class="px-6 py-3 text-white bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:ring "
+          class="px-6 py-3 rounded-md focus:outline-none focus:ring contactBut"
         >
           Send
         </button>
@@ -58,7 +58,6 @@ function sendEmail() {
 
 <style scoped>
 .mainConDiv {
-  border: 2px solid brown;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -68,6 +67,12 @@ function sendEmail() {
 
 .conHead {
   margin-top: -30vh;
+}
+
+.contactBut {
+  background-color: linear-gradient(315deg, rgb(29, 255, 25) 3%, rgba(48, 238, 226, 1) 38%, rgba(60, 132, 206, 1) 68%, rgba(101, 0, 94, 1) 98%); 
+  border-radius: 10px;
+  border: 3px solid white;
 }
 
 
