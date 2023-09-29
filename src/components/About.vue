@@ -7,7 +7,7 @@
     <div class="aboutContent">
       <div>
         <div class="whoAmH1">
-        <h1 class="text-center">WHO AM I?</h1>
+        <h1 class="text-center theH1">WHO AM I?</h1>
         </div>
         <p class="aboutText">My names Avery Newhart and I am devoted to having a career as a developed after making it my next step once I got out of the United States Air Force. 
           I am eager to learn, grow, and strengthen my skills and everyone else's around me in all ways possible. 
@@ -31,6 +31,13 @@ h1 {
 .whoAmH1 {
   margin-bottom: 50px;
   font-family: 'Black And White Picture';
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-bottom: 75px;
+}
+
+.theH1 {
+  font-size: 75px;
 }
 
 .aboutMeDiv {
