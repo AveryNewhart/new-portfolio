@@ -281,6 +281,8 @@
   border: 1px solid black;
   padding: 10px;
   border-radius: 5px;
+  height: 350px;
+  overflow: scroll;
 }
 
 .skills-list {
