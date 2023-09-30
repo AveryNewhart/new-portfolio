@@ -80,15 +80,15 @@ methods: {
           "
         >
           <li class="text-sm font-bold">
-            <a @click="navigateTo('about1')" class="navBut">About</a>
+            <button @click="navigateTo('about1')" class="navBut">About</button>
           </li>
           <!-- <li class="text-sm font-bold hover:text-blue-400">
             <a @click="navigateTo('projects1')" class="navBut">Projects</a>
           </li> -->
           <li class="group text-sm font-bold">
-            <button @click="toggleDropdown" class="navBut dropdown-button">
+            <button @click="toggleDropdown" class="navBut">
               Projects
-              <svg
+              <!-- <svg
                 class="w-4 h-4 ml-2 transform group-hover:rotate-180 transition-transform"
                 :class="{ 'rotate-180': dropdownOpen }"
                 fill="currentColor"
@@ -100,7 +100,7 @@ methods: {
                   d="M6.293 6.293a1 1 0 011.414 0L10 8.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
                   clip-rule="evenodd"
                 ></path>
-              </svg>
+              </svg> -->
             </button>
             <!-- Dropdown menu -->
             <ul
@@ -119,10 +119,10 @@ methods: {
             </ul>
           </li>
           <li class="text-sm font-bold">
-            <a @click="navigateTo('resume1')" class="navBut">Resume</a>
+            <button @click="navigateTo('resume1')" class="navBut">Resume</button>
           </li>
           <li class="text-sm font-bold">
-            <a @click="navigateTo('contact1')" class="navBut">Contact</a>
+            <button @click="navigateTo('contact1')" class="navBut">Contact</button>
           </li>
         </ul>
       </nav>
@@ -138,6 +138,9 @@ methods: {
 
 .projectButtons {
   cursor: pointer;
+  padding: 5px;
+  font-family: 'Gaegu';
+  border-radius: 5px;
 }
 
 .myName {
@@ -149,10 +152,11 @@ methods: {
 }
 
 .navBut {
-  padding: 10px;
-  font: 25px;
+  padding: 10px 20px;
+  font: .8rem;
   color:black;
   border-radius:20px;
+  line-height: 15px;
   background-color: linear-gradient(315deg, rgb(29, 255, 25) 3%, rgba(48, 238, 226, 1) 38%, rgba(60, 132, 206, 1) 68%, rgba(101, 0, 94, 1) 98%); 
   border-radius: 10px;
   border: 3px solid white;
@@ -188,10 +192,9 @@ methods: {
 }
 
 
-.dropdown-button {
+/* .dropdown-button {
   padding: 10px 20px;
   font-size: 0.8rem;
-  font-family: bolder;
   font-family: "Gaegu";
   border-radius: 16px;
   background-color: linear-gradient(315deg, rgb(29, 255, 25) 3%, rgba(48, 238, 226, 1) 38%, rgba(60, 132, 206, 1) 68%, rgba(101, 0, 94, 1) 98%); 
@@ -200,9 +203,9 @@ methods: {
   cursor: pointer;
   transform: scale(0.8);
   transition: all 0.2s ease-in-out;
-}
+} */
 
-.dropdown-button:hover {
+/* .dropdown-button:hover {
   background-image: linear-gradient(30deg, #f5b6b3, #6272fc);
   font-size: 0.8rem;
   transform: scale(0.9);
@@ -213,17 +216,17 @@ methods: {
   border: 0.1px #6e0175;
   animation-play-state: paused;
   border: 2px solid white;
-}
+} */
 
-.dropdown-button:hover::after {
+/* .dropdown-button:hover::after {
   animation-play-state: paused;
 
-}
+} */
 
-.dropdown-button + ul {
+/* .dropdown-button + ul {
   width: 100%;
   
-}
+} */
 
 .projectButtons:hover {
   background-image: linear-gradient(30deg,#f5b6b3,#6272fc);
