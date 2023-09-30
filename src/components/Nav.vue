@@ -144,10 +144,10 @@ methods: {
 }
 
 .myName {
-  padding: 20px;
   border-radius:20px;
-  background-image: linear-gradient(315deg, rgb(29, 255, 25) 3%, rgba(48, 238, 226, 1) 38%, rgba(60, 132, 206, 1) 68%, rgba(101, 0, 94, 1) 98%); 
-  box-shadow: rgba(50, 50, 93, 1) 0px 50px 100px -20px, rgba(0, 0, 0, 0.5) 0px 30px 60px -30px, rgba(10, 37, 64, 0.65) 0px -2px 6px 0px inset;
+  padding: 20px;
+  font-size: 45px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect, with no background color, it just makes the h1 pop more since same background color as pages background */
   font-family: 'Gaegu';
 }
 
