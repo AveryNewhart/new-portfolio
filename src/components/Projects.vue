@@ -13,7 +13,7 @@ interface Frontend {
 const frontends: Frontend[] = [
     {
         title: 'Golf Lancaster',
-        image: '/images/golfLancaster.png',
+        image: '/images/newGolf.png',
         deployed: 'https://averynewhart.github.io/golf-lancaster/',
         language: 'Vue, Typescript, Tailwind',
         about: 'i love gokfinggg this is the about section',
@@ -92,7 +92,7 @@ const frontends: Frontend[] = [
     },
     {
         title: 'Musician Website',
-        image: '/images/musicianWebsite.png',
+        image: '/images/newMusicSite.png',
         deployed: 'https://averynewhart.github.io/Musician-Website/',
         language: 'HTML, CSS',
         about: 'i love weather this is the about section',
@@ -181,8 +181,8 @@ const frontends: Frontend[] = [
 }
 
 .projectImage {
-  height: 300px;
-  width: 450px; 
+  /* height: 300px; */
+  /* width: 450px;  */
   border-radius: 10px;
   border: 2px solid white;
 }
