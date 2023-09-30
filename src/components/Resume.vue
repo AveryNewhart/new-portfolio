@@ -2,7 +2,11 @@
 </script>
 
 <template>
-    <h1 class="text-3xl font-semibold mb-4  mt-4 text-center">Resume</h1>
+  <div class="text-center">
+    <div class="h1-container mt-4">
+      <h1 class="">Resume</h1>
+    </div>
+  </div>
     <!-- <h2>add new resume file when i finish this page, new website links and fix skills section on it</h2> -->
 
 <div class="mainResDiv">
@@ -242,15 +246,30 @@
     </div>  
   </div>
 
-    
-    <a 
-    href="/new-portfolio/myNewResumeAveryNewhart.pdf" 
-    target="_blank"
-    class="text-blue-500 hover:underline resLink">Download Resume (PDF)</a>
+  <div class="text-center">
+    <div class="button-container">
+      <a 
+        href="/new-portfolio/myNewResumeAveryNewhart.pdf" 
+        target="_blank"
+        class="hover:underline contactBut resLink">Download Resume (PDF)</a>
+    </div>
+  </div>
   </div>
 </template>
 
 <style scoped>
+
+.h1-container {
+  display: inline-block; /* This makes the container size to its content */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  font-size: 45px;
+  font-family: 'Gaegu';
+}
+
+
+
 .mainResDiv {
   padding: 20px;
   /* display: flex;
@@ -293,6 +312,8 @@
 
 .skills-list li {
   margin-bottom: 10px;
+  font-family: 'Gaegu';
+  font-weight: bold;
 }
 
 .resLink {
@@ -304,7 +325,33 @@
   border-bottom: 5px solid white;
   padding-bottom: 5px;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 25px;
+  font-family: 'Gaegu';
+}
+
+.button-container {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.contactBut {
+  background-color: linear-gradient(315deg, rgb(29, 255, 25) 3%, rgba(48, 238, 226, 1) 38%, rgba(60, 132, 206, 1) 68%, rgba(101, 0, 94, 1) 98%); 
+  border-radius: 10px;
+  border: 5px solid white;
+  font-family: 'Gaegu';
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.contactBut:hover {
+  background-image: linear-gradient(30deg,#f5b6b3,#6272fc);
+  transform: scale(0.9);
+  transition-duration: 1s ease-out;
+  /* box-shadow: #030557 0px 25px 35px -13px; */
+  color:#ffffeb;
+  border:0.1px  #6e0175;
+  -webkit-tap-highlight-color: transparent;
+  animation-play-state: paused;
 }
 
 
