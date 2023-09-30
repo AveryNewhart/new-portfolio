@@ -48,13 +48,17 @@ const fullstacks: Fullstack[] = [
 </script>
 
 <template>
-    <div class="mainProjDiv">
+    <div class="text-center">
+        <div class="mainHead">
+            <h1 class="mt-2">Fullstack Projects</h1>
+        </div>
       <div class="mainProjectDivs">
-        <h3 class="mt-2">Fullstack Projects</h3>
         <div class="projectGrid">
           <div class="projectDiv" v-for="(fullstack, index) in fullstacks" :key="index">
             <div class="projectContent">
-              <div class="text-center mt-2 titleP">{{ fullstack.title }}</div>
+              <div class="text-center mt-2 titleP">
+                <h2>{{ fullstack.title }}</h2>
+            </div>
               <img :src="`/new-portfolio${fullstack.image}`" alt="Project Image" class="projectImage" />
               <p class="mainP">Languages Used: <span class="mainS">{{ fullstack.language }}</span></p>
               <p class="mainP">Description: <span class="mainSA">{{ fullstack.about }}</span></p>
@@ -69,21 +73,25 @@ const fullstacks: Fullstack[] = [
   <style scoped>
   .mainP {
     font-weight: bold;
-    font-size: 1rem;
-    color: #333;
+    font-size: 20px;
+    font-family: 'Gaegu';
+    margin-top: 10px;
   }
   
   .mainS {
     font-weight: normal;
+    font-size: 15px;
   }
   
   .mainSA {
     font-weight: normal;
-    font-size: .90rem;
+    font-size: 15px;
   }
   
   .titleP {
     font-weight: bold;
+    font-family: 'Gaegu';
+    font-size: 25px;
   }
   
   .projectContent a {
@@ -95,17 +103,46 @@ const fullstacks: Fullstack[] = [
   .mainProjectDivs {
     margin-top: 25px;
     min-height: 900px;
+    margin-bottom: 15px
   }
   
-  h3 {
-    text-align: center;
-    color: #333;
+
+  .mainHead {
+    display: inline-block; /* This makes the container size to its content */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    font-size: 45px;
+    font-family: 'Gaegu';
+    margin-top: 15px;
+  }
+  
+  .projectImage {
+    /* height: 300px;
+    width: 350px;  */
+    border-radius: 10px;
+    border: 2px solid white;
+  }
+
+  .projectLink {
+    background-color: linear-gradient(315deg, rgb(29, 255, 25) 3%, rgba(48, 238, 226, 1) 38%, rgba(60, 132, 206, 1) 68%, rgba(101, 0, 94, 1) 98%); 
+    border-radius: 10px;
+    border: 2px solid white;
+    font-family: 'Gaegu';
     font-size: 1.5rem;
+    padding: 10px;
+    margin-top: 10px;
   }
-  
-  img.projectImage {
-    height: 300px;
-    width: 350px; 
+
+  .projectLink:hover {
+    background-image: linear-gradient(30deg,#f5b6b3,#6272fc);
+    transform: scale(0.9);
+    transition-duration: 1s ease-out;
+    /* box-shadow: #030557 0px 25px 35px -13px; */
+    color:#ffffeb;
+    border:0.1px  #6e0175;
+    -webkit-tap-highlight-color: transparent;
+    animation-play-state: paused;
   }
   
 
@@ -132,18 +169,5 @@ const fullstacks: Fullstack[] = [
     text-align: center;
   }
   
-  .projectLink {
-    color: white;
-    text-decoration: none;
-    background-color: #333;
-    padding: 10px 20px;
-    border-radius: 5px;
-    display: inline-block;
-    margin-top: 10px;
-  }
-  
-  .projectLink:hover {
-    background-color: #555;
-  }
   </style>
   
