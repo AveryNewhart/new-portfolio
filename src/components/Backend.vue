@@ -1,14 +1,5 @@
 <script setup lang="ts">
 
-import { ref } from 'vue';
-
-const currentPosition = ref(0);
-
-const updatePosition = (index: number) => {
-  currentPosition.value = index;
-};
-
-
 interface Backend {
     title: string;
     image: string;
