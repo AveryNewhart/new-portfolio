@@ -7,7 +7,7 @@
         <input
           type="text"
           name="user_name"
-          class="w-full px-4 py-2 border rounded-md "
+          class="w-full px-4 py-2 border rounded-md userInputs"
           required
         />
       </div>
@@ -16,7 +16,7 @@
         <input
           type="text"
           name="user_email"
-          class="w-full px-4 py-2 border rounded-md"
+          class="w-full px-4 py-2 border rounded-md userInputs"
           required
         />
       </div>
@@ -24,7 +24,7 @@
         <label class="block text-sm font-medium theLabels">Message</label>
         <textarea
           name="message"
-          class="w-full px-4 py-2 border rounded-md"
+          class="w-full px-4 py-2 border rounded-md userInputs"
           rows="4"
           required
         ></textarea>
@@ -82,6 +82,10 @@ h1 {
   font-size: 45px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect, with no background color, it just makes the h1 pop more since same background color as pages background */
+}
+
+.userInputs {
+  font-family: 'Gauegu';
 }
 
 .mainConDiv {
