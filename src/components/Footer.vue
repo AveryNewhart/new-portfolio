@@ -20,14 +20,14 @@ library.add(faTwitter, faGithub, faLinkedin)
     <footer class="flex justify-center">
       <div class="p-4 md:flex md:items-center md:justify-between">
         <ul class="flex justify-center flex-wrap items-center text-sm font-medium sm:mt-0">
-          <li>
-            <a href="" class="mr-4"><font-awesome-icon :icon="['fab', 'github']" fade /></a>
+          <li class="icons">
+            <a href="" class="mr-4 icons"><font-awesome-icon :icon="['fab', 'github']" /></a>
           </li>
-          <li>
-            <a href="" class="mr-4"><font-awesome-icon :icon="['fab', 'linkedin']" fade /></a>
+          <li class="icons">
+            <a href="" class="mr-4 icons"><font-awesome-icon :icon="['fab', 'linkedin']" /></a>
           </li>
-          <li>
-            <a href="" class="mr-4"><font-awesome-icon :icon="['fab', 'twitter']" fade /></a>
+          <li class="icons">
+            <a href="" class="mr-4 icons"><font-awesome-icon :icon="['fab', 'twitter']" /></a>
           </li>
         </ul>
       </div>
@@ -39,7 +39,13 @@ library.add(faTwitter, faGithub, faLinkedin)
 <style scoped>
 
 .mainDivFoot {
-  border-top: 5px solid black;
+  border-top: 5px solid white;
+}
+
+.icons {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 </style>

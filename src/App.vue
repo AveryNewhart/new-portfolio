@@ -113,13 +113,14 @@ const currentSection = ref<number>(0);
 
 .arrow {
     position: fixed;
-    top: 97%;
+    top: 96.5%;
     transform: translateY(-50%);
     /* width: 30px;
     height: 30px; */
     /* background-color: #333; */
     opacity: 0.7;
     cursor: pointer;
+    font-size: 35px;
   }
 
   .left {
