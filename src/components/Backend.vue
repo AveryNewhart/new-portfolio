@@ -68,7 +68,7 @@ const backends: Backend[] = [
               <div class="text-center mt-2 titleP">
                 <h2>{{ backend.title }}</h2>
             </div>
-              <img :src="`/new-portfolio${backend.image}`" alt="Project Image" class="projectImage" />
+              <img :src="`${backend.image}`" alt="Project Image" class="projectImage" />
               <p class="mainP">Languages Used: <span class="mainS">{{ backend.language }}</span></p>
               <p class="mainPD">Description: <span class="mainSA">{{ backend.about }}</span></p>
               <a :href="backend.repo" class="projectLink" target="_blank">Github Repo</a>

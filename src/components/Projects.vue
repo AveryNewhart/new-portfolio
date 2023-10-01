@@ -124,7 +124,7 @@ const frontends: Frontend[] = [
             <div class="text-center mt-2 titleP">
               <h2>{{ frontend.title }}</h2>
           </div>
-            <img :src="`/new-portfolio${frontend.image}`" alt="Project Image" class="projectImage" />
+            <img :src="`${frontend.image}`" alt="Project Image" class="projectImage" />
             <p class="mainP">Languages Used: <span class="mainS">{{ frontend.language }}</span></p>
             <p class="mainPD">Description: <span class="mainSA">{{ frontend.about }}</span></p>
             <a :href="frontend.repo" class="projectLink" target="_blank">Github Repo</a>

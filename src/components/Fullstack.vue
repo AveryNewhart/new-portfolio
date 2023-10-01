@@ -59,7 +59,7 @@ const fullstacks: Fullstack[] = [
               <div class="text-center mt-2 titleP">
                 <h2>{{ fullstack.title }}</h2>
             </div>
-              <img :src="`/new-portfolio${fullstack.image}`" alt="Project Image" class="projectImage" />
+              <img :src="`${fullstack.image}`" alt="Project Image" class="projectImage" />
               <p class="mainP">Languages Used: <span class="mainS">{{ fullstack.language }}</span></p>
               <p class="mainPD">Description: <span class="mainSA">{{ fullstack.about }}</span></p>
               <a :href="fullstack.repo" class="projectLink" target="_blank">Github Repo</a>

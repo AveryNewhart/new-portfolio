@@ -249,7 +249,7 @@
   <div class="text-center">
     <div class="button-container">
       <a 
-        href="/new-portfolio/myNewResumeAveryNewhart.pdf" 
+        href="/myNewResumeAveryNewhart.pdf" 
         target="_blank"
         class="hover:underline contactBut resLink">Download Resume (PDF)</a>
     </div>
