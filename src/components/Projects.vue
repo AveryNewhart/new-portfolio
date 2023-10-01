@@ -46,10 +46,10 @@ const frontends: Frontend[] = [
     {
         title: 'Note Taker',
         image: '/images/noteTaker.png',
-        deployed: 'delpoyed site here',
-        language: 'languages used here, js',
-        about: 'i love taking notes this is the about section',
-        repo: 'put repo link',
+        deployed: 'https://note-take-88-99.herokuapp.com/',
+        language: 'HTML, CSS, JavaScript',
+        about: 'Here you will be able to write notes and save them to go back to anytime.',
+        repo: 'https://github.com/AveryNewhart/Note-Taker',
     },
     {
         title: 'Timed Coding Quiz',
@@ -102,10 +102,10 @@ const frontends: Frontend[] = [
     {
         title: 'Day Planner',
         image: '/images/dayPlanner.png',
-        deployed: 'delpoyed site here',
-        language: 'languages used here, html, css',
+        deployed: 'https://averynewhart.github.io/Day-Planner/',
+        language: 'HTML, CSS, JavaScript',
         about: 'Plan out your whole day by the hour, the time of the day also reflects which color each hour is.',
-        repo: 'put repo link',
+        repo: 'https://github.com/AveryNewhart/Day-Planner',
     },
 ];
 
