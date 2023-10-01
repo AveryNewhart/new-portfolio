@@ -1,6 +1,6 @@
 # new-portfolio
 
-- tba
+- Welcome to my newest portfolio that I have made using Vue, Typescript, Tailwind CSS, and emailjs for my contact page!
 
 # Badges
 
