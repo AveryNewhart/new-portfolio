@@ -16,7 +16,7 @@ const fullstacks: Fullstack[] = [
         image: '/images/myMusic.png',
         deployed: 'https://my-music-4e69cad2a89f.herokuapp.com/',
         language: 'JavaScript, HTML, CSS',
-        about: 'i love musiccccc this is the about section',
+        about: 'Search artists and save their albums to two categories then write reviews on them. You will be able to follow other users too.',
         repo: 'https://github.com/AveryNewhart/my-music',
     },
     {
@@ -24,7 +24,7 @@ const fullstacks: Fullstack[] = [
         image: '/images/yourMovies.png',
         deployed: 'https://yourmovies.herokuapp.com/',
         language: 'JavaScript, HTML, CSS',
-        about: 'i love moviessss this is the about section',
+        about: 'Create an account, Search movies, save them to watched or watchlist, and also write reviews to save to your profile.',
         repo: 'https://github.com/AveryNewhart/YOUR-MOVIES',
     },
     {
@@ -32,15 +32,15 @@ const fullstacks: Fullstack[] = [
         image: '/images/FlickTracker.png',
         deployed: 'https://the-flick-tracker.herokuapp.com/',
         language: 'JavaScript, HTML, CSS',
-        about: 'i love movies oldddd this is the about section',
+        about: 'Create an account, Search movies, save them to watched or watchlist, follow other users.',
         repo: 'https://github.com/AveryNewhart/The-Flick-Tracker',
     },
     {
         title: 'The Tech Blog',
         image: '/images/techBlog.png',
-        deployed: 'https://my-tech-blog-888.herokuapp.com/',
+        deployed: 'N/A',
         language: 'JavaScript, HTML, CSS',
-        about: 'i love blogging this is the about section',
+        about: 'Create an account and begin making blog posts! Each blog will be posted in the feed for all users to see.',
         repo: 'https://github.com/AveryNewhart/Tech-Blog',
     },
 ];
@@ -86,6 +86,7 @@ const fullstacks: Fullstack[] = [
   .mainSA {
     font-weight: normal;
     font-size: 15px;
+    
   }
   
   .titleP {
