@@ -20,7 +20,7 @@ const backends: Backend[] = [
     },
     {
         title: 'Social Network Backend',
-        image: '/images/socialNetworkBackend.png',
+        image: '/images/newBackendPic.png',
         video: 'https://drive.google.com/file/d/1Niv2UUrKq0y4PreW8bW5NCwMH163WCtw/view',
         language: 'JavaScript, HTML',
         about: 'The backend routes for a basic social media application. Where a user has thoughts, friends, can add reactions, along with being able to update all of them.',
@@ -70,7 +70,7 @@ const backends: Backend[] = [
             </div>
               <img :src="`/new-portfolio${backend.image}`" alt="Project Image" class="projectImage" />
               <p class="mainP">Languages Used: <span class="mainS">{{ backend.language }}</span></p>
-              <p class="mainP">Description: <span class="mainSA">{{ backend.about }}</span></p>
+              <p class="mainPD">Description: <span class="mainSA">{{ backend.about }}</span></p>
               <a :href="backend.repo" class="projectLink" target="_blank">Github Repo</a>
             </div>
           </div>
@@ -87,6 +87,15 @@ const backends: Backend[] = [
     margin-top: 10px;
   }
   
+  .mainPD {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Gaegu';
+    margin-top: 10px;
+    height: 150px;
+    overflow: scroll;
+  }
+
   .mainS {
     font-weight: normal;
     font-size: 15px;

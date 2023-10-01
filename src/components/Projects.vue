@@ -101,7 +101,7 @@ const frontends: Frontend[] = [
     },
     {
         title: 'Day Planner',
-        image: '/images/dayPlanner.png',
+        image: '/images/newDay.png',
         deployed: 'https://averynewhart.github.io/Day-Planner/',
         language: 'HTML, CSS, JavaScript',
         about: 'Plan out your whole day by the hour, the time of the day also reflects which color each hour is.',
@@ -126,7 +126,7 @@ const frontends: Frontend[] = [
           </div>
             <img :src="`/new-portfolio${frontend.image}`" alt="Project Image" class="projectImage" />
             <p class="mainP">Languages Used: <span class="mainS">{{ frontend.language }}</span></p>
-            <p class="mainP">Description: <span class="mainSA">{{ frontend.about }}</span></p>
+            <p class="mainPD">Description: <span class="mainSA">{{ frontend.about }}</span></p>
             <a :href="frontend.repo" class="projectLink" target="_blank">Github Repo</a>
           </div>
         </div>
@@ -142,6 +142,15 @@ const frontends: Frontend[] = [
   font-family: 'Gaegu';
   margin-top: 10px;
 }
+
+.mainPD {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Gaegu';
+    margin-top: 10px;
+    height: 150px;
+    overflow: scroll;
+  }
 
 .mainS {
   font-weight: normal;

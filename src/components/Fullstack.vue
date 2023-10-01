@@ -61,7 +61,7 @@ const fullstacks: Fullstack[] = [
             </div>
               <img :src="`/new-portfolio${fullstack.image}`" alt="Project Image" class="projectImage" />
               <p class="mainP">Languages Used: <span class="mainS">{{ fullstack.language }}</span></p>
-              <p class="mainP">Description: <span class="mainSA">{{ fullstack.about }}</span></p>
+              <p class="mainPD">Description: <span class="mainSA">{{ fullstack.about }}</span></p>
               <a :href="fullstack.repo" class="projectLink" target="_blank">Github Repo</a>
             </div>
           </div>
@@ -76,6 +76,15 @@ const fullstacks: Fullstack[] = [
     font-size: 20px;
     font-family: 'Gaegu';
     margin-top: 10px;
+  }
+
+  .mainPD {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Gaegu';
+    margin-top: 10px;
+    height: 150px;
+    overflow: scroll;
   }
   
   .mainS {
