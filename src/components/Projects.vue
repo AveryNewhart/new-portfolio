@@ -16,7 +16,7 @@ const frontends: Frontend[] = [
         image: '/images/newGolf.png',
         deployed: 'https://averynewhart.github.io/golf-lancaster/',
         language: 'Vue, Typescript, Tailwind',
-        about: 'i love gokfinggg this is the about section',
+        about: 'I got tired of looking up every golf course and trying to find their rates so I had an idea on how to fix that. Here you can, find all the golf courses and their rates in Lancaster County, Pennsylvania... all in one place.',
         repo: 'https://github.com/AveryNewhart/golf-lancaster',
     },
     {
@@ -24,7 +24,7 @@ const frontends: Frontend[] = [
         image: '/images/stopwatch.png',
         deployed: 'https://averynewhart.github.io/my-stopwatch/',
         language: 'Vue, Typescript, Tailwind',
-        about: 'i love stopwacthes this is the about section',
+        about: 'This is a simple easy to use stopwatch with a start, stop, and restart button.',
         repo: 'https://github.com/AveryNewhart/my-stopwatch',
     },
     {
@@ -32,7 +32,7 @@ const frontends: Frontend[] = [
         image: '/images/finalCountdown.png',
         deployed: 'https://averynewhart.github.io/final-countdown/',
         language: 'Vue, Typescript, Tailwind',
-        about: 'i love counting down this is the about section',
+        about: 'This is a simple easy to use timer that you can set hours, minutes, and seconds.',
         repo: 'https://github.com/AveryNewhart/final-countdown',
     },
     {
@@ -40,22 +40,23 @@ const frontends: Frontend[] = [
         image: '/images/calc.png',
         deployed: 'https://averynewhart.github.io/vue-calc/',
         language: 'Vue, Typescript, Tailwind',
-        about: 'i love math this is the about section',
+        about: 'This is an easy to use calculator. It has all of the basic functions.',
         repo: 'https://github.com/AveryNewhart/vue-calc',
     },
-    // {
-    //     title: 'Note Taker',
-    //     image: '/images/noteTaker.png',
-    //     language: 'languages used here, js',
-    //     about: 'i love taking notes this is the about section',
-    //     repo: 'put repo link',
-    // },
+    {
+        title: 'Note Taker',
+        image: '/images/noteTaker.png',
+        deployed: 'delpoyed site here',
+        language: 'languages used here, js',
+        about: 'i love taking notes this is the about section',
+        repo: 'put repo link',
+    },
     {
         title: 'Timed Coding Quiz',
         image: '/images/codingQuiz.png',
         deployed: 'https://averynewhart.github.io/Timed-Coding-Quiz/index.html',
         language: 'HTML, CSS, JavaScript',
-        about: 'i love quizzes this is the about section',
+        about: 'Simple coding quiz app. It is timed and your time adds to your score. Become the best!',
         repo: 'https://github.com/AveryNewhart/Timed-Coding-Quiz',
     },
     {
@@ -63,7 +64,7 @@ const frontends: Frontend[] = [
         image: '/images/weather.png',
         deployed: 'https://averynewhart.github.io/weather-forceast-dashbord/',
         language: 'HTML, CSS, JavaScript',
-        about: 'i love weather this is the about section',
+        about: 'This is a simple weather app. Search up any city for the forecast.',
         repo: 'https://github.com/AveryNewhart/weather-forceast-dashbord',
     },
     {
@@ -71,7 +72,7 @@ const frontends: Frontend[] = [
         image: '/images/passwordGen.png',
         deployed: 'https://averynewhart.github.io/password-gen/',
         language: 'HTML, CSS, JavaScript',
-        about: 'i love generating passwords this is the about section',
+        about: 'Have you ever been unsure of what to make a password. Use this simple password generator.',
         repo: 'https://github.com/AveryNewhart/password-gen',
     },
     {
@@ -79,7 +80,7 @@ const frontends: Frontend[] = [
         image: '/images/tictactoe.png',
         deployed: 'https://averynewhart.github.io/tic-tac-toe/',
         language: 'TypeScript, HTML, CSS',
-        about: 'i love tictactoe this is the about section',
+        about: 'Tic Tac Toe game which keeps track of each players wins!',
         repo: 'https://github.com/AveryNewhart/tic-tac-toe',
     },
     {
@@ -87,7 +88,7 @@ const frontends: Frontend[] = [
         image: '/images/trackYourDay.png',
         deployed: 'https://averynewhart.github.io/track-your-time/',
         language: 'TypeScript, HTML, CSS',
-        about: 'i love to do lists this is the about section',
+        about: 'This is a simple to-do list. Click on each item to cross it off.',
         repo: 'https://github.com/AveryNewhart/track-your-time',
     },
     {
@@ -95,16 +96,17 @@ const frontends: Frontend[] = [
         image: '/images/newMusicSite.png',
         deployed: 'https://averynewhart.github.io/Musician-Website/',
         language: 'HTML, CSS',
-        about: 'i love weather this is the about section',
+        about: 'This is a basic template I made that can be used for any musician, or any public person. It has tour, about, and store pages.',
         repo: 'https://github.com/AveryNewhart/Musician-Website',
     },
-    // {
-    //     title: 'Day Planner',
-    //     image: '/images/dayPlanner.png',
-    //     language: 'languages used here, html, css',
-    //     about: 'i love planning my day this is the about section',
-    //     repo: 'put repo link',
-    // },
+    {
+        title: 'Day Planner',
+        image: '/images/dayPlanner.png',
+        deployed: 'delpoyed site here',
+        language: 'languages used here, html, css',
+        about: 'Plan out your whole day by the hour, the time of the day also reflects which color each hour is.',
+        repo: 'put repo link',
+    },
 ];
 
 
