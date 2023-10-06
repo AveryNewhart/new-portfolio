@@ -3,15 +3,15 @@
 
 <template>
   <div class="aboutMeDiv">
-    <!-- <h1 class="text-center font-bold">About</h1> -->
     <div class="aboutContent">
-      <div>
+      <div class="mobileDiv">
         <div class="whoAmH1">
         <h1 class="text-center theH1">WHO AM I?</h1>
         </div>
-        <p class="aboutText">My names Avery Newhart and I am devoted to having a career as a developed after making it my next step once I got out of the United States Air Force. 
-          I am eager to learn, grow, and strengthen my skills and everyone else's around me in all ways possible. 
-          All I am waiting for is my first opportunity to truly show what I can do in this industry, and I promise you will not be let down.</p>
+        <p class="aboutText">My name is Avery Newhart, and my journey towards a career in development began as my next step after serving in the United States Air Force.
+          I am driven by a deep passion for learning, personal growth, and the collaborative process of elevating everyone's skills in any way possible.
+          I am eagerly awaiting that first opportunity to showcase my abilities in this industry, and I am confident that I will exceed your expectations. 
+          Together, we can create something remarkable.</p>
       </div>
       <img class="myPic" src='/images/myPic.png'>
     </div>
@@ -38,10 +38,18 @@ h1 {
 
 .theH1 {
   font-size: 75px;
+  white-space: nowrap;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  text-decoration: dashed underline white;
 }
 
 .aboutMeDiv {
   padding: 20px;
+}
+
+.mobileDiv {
+  max-width: 100%;
 }
 
 .aboutContent {
@@ -53,10 +61,12 @@ h1 {
 .aboutText {
   flex: 1; 
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.1); 
+  background-color: rgba(255, 255, 255, 0.3); /* Brighter background with the same translucency */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
   border-radius: 8px;
   font-family: 'Gaegu';
+  font-size: 25px;
+  text-align: center;
 }
 
 .myPic {
@@ -69,6 +79,7 @@ h1 {
 @media (max-width: 768px) {
   .aboutContent {
     flex-direction: column;
+    max-width: 100%;
   }
   .myPic {
     max-width: 100%;
@@ -76,7 +87,22 @@ h1 {
     margin-left: 0;
     margin-top: 20px;
   }
+
+  .aboutText {
+    max-width: 100%;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .mobileDiv h1 {
+    box-shadow: none;
+    padding: none;
+    display: flex;
+    justify-content: center;
+  }
 }
+
+
 
 </style>
 

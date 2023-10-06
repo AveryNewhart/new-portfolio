@@ -95,7 +95,7 @@ const frontends: Frontend[] = [
         title: 'Musician Website',
         image: '/images/newMusicSite.png',
         deployed: 'https://averynewhart.github.io/Musician-Website/',
-        language: 'HTML, CSS',
+        language: 'HTML, CSS, JavaScript',
         about: 'This is a basic template I made that can be used for any musician, or any public person. It has tour, about, and store pages.',
         repo: 'https://github.com/AveryNewhart/Musician-Website',
     },
@@ -115,7 +115,7 @@ const frontends: Frontend[] = [
 <template>
   <div class="text-center">
       <div class="mainHead">
-          <h1 class="mt-2">Frontend Projects</h1>
+          <h1 class="mt-2 projectH1">Frontend Projects</h1>
       </div>
     <div class="mainProjectDivs">
       <div class="projectGrid">
@@ -138,34 +138,45 @@ const frontends: Frontend[] = [
 <style scoped>
 .mainP {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 35px;
   font-family: 'Gaegu';
   margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.3); /* Brighter background with the same translucency */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  border-radius: 10px;
+}
+
+.projectH1 {
+  text-decoration: dashed underline white;
 }
 
 .mainPD {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 35px;
     font-family: 'Gaegu';
     margin-top: 10px;
     height: 150px;
     overflow: scroll;
+    background-color: rgba(255, 255, 255, 0.3); /* Brighter background with the same translucency */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  border-radius: 10px;
   }
 
 .mainS {
   font-weight: normal;
-  font-size: 15px;
+  font-size: 30px;
 }
 
 .mainSA {
   font-weight: normal;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 .titleP {
   font-weight: bold;
   font-family: 'Gaegu';
-  font-size: 25px;
+  font-size: 35px;
+    text-decoration: dashed underline white;
 }
 
 .projectContent a {
@@ -199,18 +210,21 @@ const frontends: Frontend[] = [
 }
 
 .projectLink {
-  background-color: linear-gradient(315deg, rgb(29, 255, 25) 3%, rgba(48, 238, 226, 1) 38%, rgba(60, 132, 206, 1) 68%, rgba(101, 0, 94, 1) 98%); 
+  /* background-color: linear-gradient(315deg, rgb(29, 255, 25) 3%, rgba(48, 238, 226, 1) 38%, rgba(60, 132, 206, 1) 68%, rgba(101, 0, 94, 1) 98%);  */
+  background-color: rgba(255, 255, 255, 0.3); /* Brighter background with the same translucency */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
   border-radius: 10px;
   border: 2px solid white;
   font-family: 'Gaegu';
   font-size: 1.5rem;
-  padding: 10px;
-  margin-top: 10px;
+  padding: 5px;
+  margin-top: 20px;
+  transform: scale(.9);
 }
 
 .projectLink:hover {
   background-image: linear-gradient(30deg,#f5b6b3,#6272fc);
-  transform: scale(0.9);
+  transform: scale(0.7);
   transition-duration: 1s ease-out;
   /* box-shadow: #030557 0px 25px 35px -13px; */
   color:#ffffeb;
@@ -241,6 +255,10 @@ const frontends: Frontend[] = [
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
+}
+
+.mainPD .mainP .mainS .mainSA {
+  font-size: 45px;
 }
 
 </style>

@@ -50,7 +50,7 @@ const fullstacks: Fullstack[] = [
 <template>
     <div class="text-center">
         <div class="mainHead">
-            <h1 class="mt-2">Fullstack Projects</h1>
+            <h1 class="mt-2 projectH1">Fullstack Projects</h1>
         </div>
       <div class="mainProjectDivs">
         <div class="projectGrid">
@@ -71,37 +71,47 @@ const fullstacks: Fullstack[] = [
   </template>
   
   <style scoped>
-  .mainP {
-    font-weight: bold;
-    font-size: 20px;
-    font-family: 'Gaegu';
-    margin-top: 10px;
-  }
+.mainP {
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Gaegu';
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.3); /* Brighter background with the same translucency */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  border-radius: 10px;
+}
 
-  .mainPD {
+.projectH1 {
+  text-decoration: dashed underline white;
+}
+
+.mainPD {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 35px;
     font-family: 'Gaegu';
     margin-top: 10px;
     height: 150px;
     overflow: scroll;
+    background-color: rgba(255, 255, 255, 0.3); /* Brighter background with the same translucency */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  border-radius: 10px;
   }
   
   .mainS {
-    font-weight: normal;
-    font-size: 15px;
-  }
-  
-  .mainSA {
-    font-weight: normal;
-    font-size: 15px;
-    
-  }
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.mainSA {
+  font-weight: normal;
+  font-size: 25px;
+}
   
   .titleP {
     font-weight: bold;
     font-family: 'Gaegu';
-    font-size: 25px;
+    font-size: 35px;
+    text-decoration: dashed underline white;
   }
   
   .projectContent a {
@@ -135,25 +145,28 @@ const fullstacks: Fullstack[] = [
   }
 
   .projectLink {
-    background-color: linear-gradient(315deg, rgb(29, 255, 25) 3%, rgba(48, 238, 226, 1) 38%, rgba(60, 132, 206, 1) 68%, rgba(101, 0, 94, 1) 98%); 
-    border-radius: 10px;
-    border: 2px solid white;
-    font-family: 'Gaegu';
-    font-size: 1.5rem;
-    padding: 10px;
-    margin-top: 10px;
-  }
+  /* background-color: linear-gradient(315deg, rgb(29, 255, 25) 3%, rgba(48, 238, 226, 1) 38%, rgba(60, 132, 206, 1) 68%, rgba(101, 0, 94, 1) 98%);  */
+  background-color: rgba(255, 255, 255, 0.3); /* Brighter background with the same translucency */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  border-radius: 10px;
+  border: 2px solid white;
+  font-family: 'Gaegu';
+  font-size: 1.5rem;
+  padding: 5px;
+  margin-top: 20px;
+  transform: scale(.9);
+}
 
-  .projectLink:hover {
-    background-image: linear-gradient(30deg,#f5b6b3,#6272fc);
-    transform: scale(0.9);
-    transition-duration: 1s ease-out;
-    /* box-shadow: #030557 0px 25px 35px -13px; */
-    color:#ffffeb;
-    border:0.1px  #6e0175;
-    -webkit-tap-highlight-color: transparent;
-    animation-play-state: paused;
-  }
+.projectLink:hover {
+  background-image: linear-gradient(30deg,#f5b6b3,#6272fc);
+  transform: scale(0.7);
+  transition-duration: 1s ease-out;
+  /* box-shadow: #030557 0px 25px 35px -13px; */
+  color:#ffffeb;
+  border:0.1px  #6e0175;
+  -webkit-tap-highlight-color: transparent;
+  animation-play-state: paused;
+}
   
 
   .projectGrid {

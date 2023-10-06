@@ -249,7 +249,7 @@
   <div class="text-center">
     <div class="button-container">
       <a 
-        href="/myNewResumeAveryNewhart.pdf" 
+        href="/newResForPortAveryNewhart.pdf" 
         target="_blank"
         class="hover:underline contactBut resLink">Download Resume (PDF)</a>
     </div>
@@ -288,6 +288,13 @@
     border-radius: 5px;
 }
 
+.skill-item p {
+  background-color: rgba(255, 255, 255, 0.3); /* Brighter background with the same translucency */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  padding: 5px;
+  border-radius: 10px;
+}
+
 .skills-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Three sections per row */
@@ -314,6 +321,7 @@
   margin-bottom: 10px;
   font-family: 'Gaegu';
   font-weight: bold;
+  font-size: 20px;
 }
 
 .resLink {
@@ -325,7 +333,7 @@
   border-bottom: 5px solid white;
   padding-bottom: 5px;
   font-weight: bolder;
-  font-size: 25px;
+  font-size: 35px;
   font-family: 'Gaegu';
 }
 
