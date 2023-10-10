@@ -37,7 +37,7 @@ const frontends: Frontend[] = [
     },
     {
         title: 'Vue Calc',
-        image: '/images/calc.png',
+        image: '/images/ndwCalc.png',
         deployed: 'https://averynewhart.github.io/vue-calc/',
         language: 'Vue, Typescript, Tailwind',
         about: 'This is an easy to use calculator. It has all of the basic functions.',
@@ -45,20 +45,20 @@ const frontends: Frontend[] = [
     },
     {
         title: 'Note Taker',
-        image: '/images/noteTaker.png',
+        image: '/images/newNoteTaker.png',
         deployed: 'https://note-take-88-99.herokuapp.com/',
         language: 'HTML, CSS, JavaScript',
         about: 'Here you will be able to write notes and save them to go back to anytime.',
         repo: 'https://github.com/AveryNewhart/Note-Taker',
     },
-    {
-        title: 'Timed Coding Quiz',
-        image: '/images/codingQuiz.png',
-        deployed: 'https://averynewhart.github.io/Timed-Coding-Quiz/index.html',
-        language: 'HTML, CSS, JavaScript',
-        about: 'Simple coding quiz app. It is timed and your time adds to your score. Become the best!',
-        repo: 'https://github.com/AveryNewhart/Timed-Coding-Quiz',
-    },
+    // {
+    //     title: 'Timed Coding Quiz',
+    //     image: '/images/codingQuiz.png',
+    //     deployed: 'https://averynewhart.github.io/Timed-Coding-Quiz/index.html',
+    //     language: 'HTML, CSS, JavaScript',
+    //     about: 'Simple coding quiz app. It is timed and your time adds to your score. Become the best!',
+    //     repo: 'https://github.com/AveryNewhart/Timed-Coding-Quiz',
+    // },
     {
         title: 'Weather Forecast',
         image: '/images/weather.png',

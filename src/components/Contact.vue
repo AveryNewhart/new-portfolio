@@ -3,7 +3,7 @@
     <h1 class="text-center text-3xl font-semibold mb-6 conHead">Contact Me</h1>
     <form ref="form" @submit.prevent="sendEmail" class="w-full md:max-w-lg mx-auto">
       <div class="mb-4">
-        <label class="block text-sm font-medium theLabels">Name</label>
+        <label class="text-sm font-medium theLabels">Name</label>
         <input
           type="text"
           name="user_name"
@@ -12,7 +12,7 @@
         />
       </div>
       <div class="mb-4">
-        <label class="block text-sm font-medium theLabels">E-Mail</label>
+        <label class="text-sm font-medium theLabels">E-Mail</label>
         <input
           type="text"
           name="user_email"
@@ -21,7 +21,7 @@
         />
       </div>
       <div class="mb-6">
-        <label class="block text-sm font-medium theLabels">Message</label>
+        <label class="text-sm font-medium theLabels">Message</label>
         <textarea
           name="message"
           class="w-full px-4 py-2 border rounded-md userInputs"
@@ -98,15 +98,21 @@ h1 {
 
 .theLabels {
   font-family: 'Gaegu';
+  background-color: rgba(255, 255, 255, 0.3); /* Brighter background with the same translucency */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .conHead {
   margin-top: -30vh;
   font-family: 'Gaegu';
+  text-decoration: dashed underline white;
 }
 
 .contactBut {
-  background-color: linear-gradient(315deg, rgb(29, 255, 25) 3%, rgba(48, 238, 226, 1) 38%, rgba(60, 132, 206, 1) 68%, rgba(101, 0, 94, 1) 98%); 
+  background-color: rgba(255, 255, 255, 0.3); /* Brighter background with the same translucency */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
   border-radius: 10px;
   border: 3px solid white;
   font-family: 'Gaegu';

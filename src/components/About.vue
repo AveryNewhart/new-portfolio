@@ -77,6 +77,7 @@ h1 {
 }
 
 @media (max-width: 768px) {
+
   .aboutContent {
     flex-direction: column;
     max-width: 100%;
@@ -100,6 +101,14 @@ h1 {
     display: flex;
     justify-content: center;
   }
+}
+
+@media (max-width: 450px) {
+
+.theH1 {
+  font-size: 50px;
+}
+
 }
 
 

@@ -16,6 +16,9 @@ methods: {
     toggleDropdown() {
       this.dropdownOpen = !this.dropdownOpen;
     },
+    closeMobileMenu() {
+    this.showMenu = false;
+    },
   },
 });
 </script>
@@ -78,7 +81,7 @@ methods: {
           "
         >
           <li class=" font-bold">
-            <button @click="navigateTo('about1')" class="navBut">About</button>
+            <button @click="navigateTo('about1'); closeMobileMenu()" class="navBut">About</button>
           </li>
           <!-- <li class="text-sm font-bold hover:text-blue-400">
             <a @click="navigateTo('projects1')" class="navBut">Projects</a>
@@ -106,21 +109,21 @@ methods: {
               class="mt-2 space-y-2 border border-gray-200 py-2 px-4 rounded-md shadow-lg projectDrop"
             >
               <li>
-                <a class="projectButtons" @click="navigateTo('projects1')">Frontend</a>
+                <a class="projectButtons" @click="navigateTo('projects1'); closeMobileMenu()">Frontend</a>
               </li>
               <li>
-                <a class="projectButtons" @click="navigateTo('backend1')">Backend</a>
+                <a class="projectButtons" @click="navigateTo('backend1'); closeMobileMenu()">Backend</a>
               </li>
               <li>
-                <a class="projectButtons" @click="navigateTo('fullstack1')">Fullstack</a>
+                <a class="projectButtons" @click="navigateTo('fullstack1'); closeMobileMenu()">Fullstack</a>
               </li>
             </ul>
           </li>
           <li class=" font-bold">
-            <button @click="navigateTo('resume1')" class="navBut">Resume</button>
+            <button @click="navigateTo('resume1'); closeMobileMenu()" class="navBut">Resume</button>
           </li>
           <li class=" font-bold">
-            <button @click="navigateTo('contact1')" class="navBut">Contact</button>
+            <button @click="navigateTo('contact1'); closeMobileMenu()" class="navBut">Contact</button>
           </li>
         </ul>
       </nav>
@@ -229,7 +232,7 @@ methods: {
 .projectButtons:hover {
   background-image: linear-gradient(30deg,#f5b6b3,#6272fc);
   /* padding: 2px; */
-  border-radius: 2px;
+  border-radius: 10px;
 }
 
 

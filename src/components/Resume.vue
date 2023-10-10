@@ -266,6 +266,7 @@
   border-radius: 20px;
   font-size: 45px;
   font-family: 'Gaegu';
+  text-decoration: dashed underline white;
 }
 
 
@@ -335,6 +336,7 @@
   font-weight: bolder;
   font-size: 35px;
   font-family: 'Gaegu';
+  text-decoration: dashed underline white;
 }
 
 .button-container {
@@ -343,9 +345,10 @@
 }
 
 .contactBut {
-  background-color: linear-gradient(315deg, rgb(29, 255, 25) 3%, rgba(48, 238, 226, 1) 38%, rgba(60, 132, 206, 1) 68%, rgba(101, 0, 94, 1) 98%); 
+  background-color: rgba(255, 255, 255, 0.3); /* Brighter background with the same translucency */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
   border-radius: 10px;
-  border: 5px solid white;
+  border: 3px solid white;
   font-family: 'Gaegu';
   font-size: 1.5rem;
   padding: 10px;
