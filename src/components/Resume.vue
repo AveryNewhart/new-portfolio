@@ -17,31 +17,31 @@
         <li class="skill">
           <div class="skill-item">
             <p>HTML</p>
-            <img src="/images/htmlicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newHTMLIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
         <li class="skill">
           <div class="skill-item">
             <p>CSS</p>
-            <img src="/images/cssicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newCSSIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
         <li class="skill">
           <div class="skill-item">
             <p>JavaScript(ES6+)</p>
-            <img src="/images/javascripticon.jpeg" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newJAVASCRIPTIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
         <li class="skill">
           <div class="skill-item">
             <p>TypeScript</p>
-            <img src="/images/typescripticon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newTYPESCRIPTIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
         <li class="skill">
           <div class="skill-item">
             <p>PHP</p>
-            <img src="/images/phpicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newPHPIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
       </ul>
@@ -53,13 +53,13 @@
         <li class="skill">
           <div class="skill-item">
             <p>React.js</p>
-            <img src="/images/reactjsicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newREACTIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
         <li class="skill">
           <div class="skill-item">
             <p>Vue.js</p>
-            <img src="/images/vueicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newVUEIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
       </ul>
@@ -71,13 +71,13 @@
         <li class="skill">
           <div class="skill-item">
             <p>Vite</p>
-            <img src="/images/viteicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newVITEIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
         <li class="skill">
           <div class="skill-item">
             <p>React</p>
-            <img src="/images/reactjsicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newREACTIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
       </ul>
@@ -89,25 +89,25 @@
         <li class="skill">
           <div class="skill-item">
             <p>Node.js</p>
-            <img src="/images/nodeicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newNODEIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
         <li class="skill">
           <div class="skill-item">
             <p>Express</p>
-            <img src="/images/expressicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newJSIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
         <li class="skill">
           <div class="skill-item">
             <p>PHP</p>
-            <img src="/images/phpicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newPHPIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
         <li class="skill">
           <div class="skill-item">
             <p>Apollo</p>
-            <img src="/images/apolloicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newGRAPHQLIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
       </ul>
@@ -119,19 +119,19 @@
         <li class="skill">
           <div class="skill-item">
             <p>MongoDB</p>
-            <img src="/images/mongoicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newMONGOIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
         <li class="skill">
           <div class="skill-item">
             <p>MySQL</p>
-            <img src="/images/mysqlicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newMYSQLIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
         <li class="skill">
           <div class="skill-item">
             <p>NoSQL</p>
-            <img src="/images/nosqlicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newNOSQLIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
       </ul>
@@ -143,13 +143,13 @@
         <li class="skill">
           <div class="skill-item">
             <p>GraphQL</p>
-            <img src="/images/graphicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newGRAPHQLIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
         <li class="skill">
           <div class="skill-item">
             <p>RESTful Web Services</p>
-            <img src="/images/restulicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newRESTIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
       </ul>
@@ -161,13 +161,13 @@
         <li class="skill">
           <div class="skill-item">
             <p>Bootstrap</p>
-            <img src="/images/bootstrapicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newBOOTSTRAPIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
         <li class="skill">
           <div class="skill-item">
             <p>Tailwind CSS</p>
-            <img src="/images/tailwindicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newTAILWINDIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
       </ul>
@@ -179,25 +179,25 @@
         <li class="skill">
           <div class="skill-item">
             <p>Heroku</p>
-            <img src="/images/herokuicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newHEROKUIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
         <li class="skill">
           <div class="skill-item">
             <p>Git</p>
-            <img src="/images/giticon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newGITIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
         <li class="skill">
           <div class="skill-item">
             <p>Github</p>
-            <img src="/images/githubicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newGITHUBIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
         <li class="skill">
           <div class="skill-item">
             <p>VS Code</p>
-            <img src="/images/vscodeicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newVSIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
       </ul>
@@ -209,13 +209,13 @@
         <li class="skill">
           <div class="skill-item">
             <p>Responsive Web Design</p>
-            <img src="/images/responsiveicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newRESPONSIVEIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
         <li class="skill">
           <div class="skill-item">
             <p>UI/UX Principles</p>
-            <img src="/images/uiuxicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newWEBACCICON.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
       </ul>
@@ -227,19 +227,19 @@
         <li class="skill">
           <div class="skill-item">
             <p>Full Stack Web Developer</p>
-            <img src="/images/fullstackicon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newFSIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
         <li class="skill">
           <div class="skill-item">
             <p>DoD Weather Certificate</p>
-            <img src="/images/weathericon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newWEATHERIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
         <li class="skill">
           <div class="skill-item">
             <p>Microsoft Office</p>
-            <img src="/images/microsofticon.png" alt="Frontend Skill 1" class="w-12 h-12" />
+            <img src="/images/newMICROSOFTIcon.png" alt="Frontend Skill 1" class="w-12 h-12" />
           </div>
         </li>
       </ul>
@@ -265,8 +265,10 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   font-size: 45px;
+  color: #a3fda1;
+  border: 2px solid #925ff0;
   font-family: 'Gaegu';
-  text-decoration: dashed underline white;
+  /* text-decoration: dashed underline white; */
 }
 
 
@@ -290,10 +292,11 @@
 }
 
 .skill-item p {
-  background-color: rgba(255, 255, 255, 0.3); /* Brighter background with the same translucency */
+  background-color: #a3fda1; /* Brighter background with the same translucency */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
   padding: 5px;
   border-radius: 10px;
+  color: #2d2d2d;
 }
 
 .skills-container {
@@ -305,7 +308,7 @@
 .skill-section {
   /* flex-basis: calc(33.33% -20px); */
   /* margin-bottom: 20px; */
-  border: 5px solid white;
+  border: 5px solid #925ff0;
   padding: 10px;
   border-radius: 10px;
   height: 360px;
@@ -331,12 +334,13 @@
 }
 
 .skillHead {
-  border-bottom: 5px solid white;
+  border-bottom: 5px solid #925ff0;
+  color: #a3fda1;
   padding-bottom: 5px;
   font-weight: bolder;
   font-size: 35px;
   font-family: 'Gaegu';
-  text-decoration: dashed underline white;
+  /* text-decoration: dashed underline white; */
 }
 
 .button-container {
@@ -345,24 +349,28 @@
 }
 
 .contactBut {
-  background-color: rgba(255, 255, 255, 0.3); /* Brighter background with the same translucency */
+  /* background-color: rgba(255, 255, 255, 0.3); Brighter background with the same translucency */
+  background-color: #a3fda1;
+  border: 3px solid #925ff0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
   border-radius: 10px;
-  border: 3px solid white;
+  /* border: 3px solid white; */
   font-family: 'Gaegu';
   font-size: 1.5rem;
   padding: 10px;
 }
 
 .contactBut:hover {
-  background-image: linear-gradient(30deg,#f5b6b3,#6272fc);
+  /* background-image: linear-gradient(30deg,#f5b6b3,#6272fc); */
+  background-color: #925ff0;
+  border: 3px solid #a3fda1;
   transform: scale(0.9);
   transition-duration: 1s ease-out;
   /* box-shadow: #030557 0px 25px 35px -13px; */
-  color:#ffffeb;
-  border:0.1px  #6e0175;
+  color: white;
+  /* border:0.1px  #6e0175;
   -webkit-tap-highlight-color: transparent;
-  animation-play-state: paused;
+  animation-play-state: paused; */
 }
 
 
