@@ -13,7 +13,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 library.add(faTwitter, faArrowLeft, faArrowRight)
 
 // @ts-ignore
-import Background from './components/Background.vue';
+// import Background from './components/Background.vue';
 import Nav from './components/Nav.vue';
 import About from './components/About.vue';
 import Projects from './components/Projects.vue';
@@ -66,7 +66,7 @@ const currentSection = ref<number>(0);
 
 <template>
   <div id="app">
-    <Background />
+    <!-- <Background /> -->
     <div class="componentDiv">
       <Nav @navigate="navigateTo" />
       <div class="section aboutDiv" v-if="currentSection === 0">
@@ -106,6 +106,10 @@ const currentSection = ref<number>(0);
   margin-top: 10px;
   margin-bottom: 10px;
 } */
+
+#app {
+  background-color: #2d2d2d;
+}
 
 .section {
   min-height: 100vh;

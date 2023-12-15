@@ -41,7 +41,7 @@ h1 {
   white-space: nowrap;
   padding: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
-  text-decoration: dashed underline white;
+  /* text-decoration: dashed underline white; */
 }
 
 .aboutMeDiv {
