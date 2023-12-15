@@ -34,13 +34,15 @@ h1 {
   padding-left: 150px;
   padding-right: 150px;
   margin-bottom: 75px;
+  color: #a3fda1;
 }
 
 .theH1 {
   font-size: 75px;
   white-space: nowrap;
   padding: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); Shadow effect */
+  border: 2px solid #925ff0;
   /* text-decoration: dashed underline white; */
 }
 
@@ -61,8 +63,11 @@ h1 {
 .aboutText {
   flex: 1; 
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.3); /* Brighter background with the same translucency */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  /* background-color: rgba(147, 144, 144, 0.3); Brighter background with the same translucency */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); Shadow effect */
+  border: 2px solid #a3fda1;
+  background-color: #925ff0;
+  color: #2d2d2d;
   border-radius: 8px;
   font-family: 'Gaegu';
   font-size: 25px;
