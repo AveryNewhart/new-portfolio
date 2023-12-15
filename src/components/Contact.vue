@@ -86,6 +86,10 @@ h1 {
 
 .userInputs {
   font-family: 'Gauegu';
+  background-color: #925ff0;
+  border: 1px solid #a3fda1;
+  color: white;
+  margin-top: 5px;
 }
 
 .mainConDiv {
@@ -98,7 +102,10 @@ h1 {
 
 .theLabels {
   font-family: 'Gaegu';
-  background-color: rgba(255, 255, 255, 0.3); /* Brighter background with the same translucency */
+  /* background-color: rgba(255, 255, 255, 0.3); Brighter background with the same translucency */
+  background-color: #a3fda1;
+  border: 1px solid #925ff0;
+  color: #2d2d2d;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
   padding: 5px;
   border-radius: 10px;
@@ -107,27 +114,34 @@ h1 {
 .conHead {
   margin-top: -30vh;
   font-family: 'Gaegu';
-  text-decoration: dashed underline white;
+  /* text-decoration: dashed underline white; */
+  color: #a3fda1;
+  border: 3px solid #925ff0;
 }
 
 .contactBut {
-  background-color: rgba(255, 255, 255, 0.3); /* Brighter background with the same translucency */
+  /* background-color: rgba(255, 255, 255, 0.3); Brighter background with the same translucency */
+  background-color: #a3fda1;
+  border: 3px solid #925ff0;
+  color: #2d2d2d;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
   border-radius: 10px;
-  border: 3px solid white;
+  /* border: 3px solid white; */
   font-family: 'Gaegu';
   font-size: 1.5rem;
 }
 
 .contactBut:hover {
-  background-image: linear-gradient(30deg,#f5b6b3,#6272fc);
+  /* background-image: linear-gradient(30deg,#f5b6b3,#6272fc); */
+  background-color: #925ff0;
+  border: 3px solid #a3fda1;
   transform: scale(0.9);
   transition-duration: 1s ease-out;
   /* box-shadow: #030557 0px 25px 35px -13px; */
   color:#ffffeb;
-  border:0.1px  #6e0175;
+  /* border:0.1px  #6e0175;
   -webkit-tap-highlight-color: transparent;
-  animation-play-state: paused;
+  animation-play-state: paused; */
 }
 
 input:focus,
