@@ -41,8 +41,8 @@ h1 {
   font-size: 75px;
   white-space: nowrap;
   padding: 10px;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); Shadow effect */
-  border: 2px solid #925ff0;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+  /* border: 2px solid #925ff0; */
   /* text-decoration: dashed underline white; */
 }
 

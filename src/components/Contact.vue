@@ -1,6 +1,6 @@
 <template>
   <div id="contact" class="mainConDiv p-6 md:p-12">
-    <h1 class="text-center text-3xl font-semibold mb-6 conHead">Contact Me</h1>
+    <h1 class="text-center text-3xl font-semibold mb-1 conHead">Contact Me</h1>
     <form ref="form" @submit.prevent="sendEmail" class="w-full md:max-w-lg mx-auto">
       <div class="mb-4">
         <label class="text-sm font-medium theLabels">Name</label>
@@ -81,6 +81,7 @@ h1 {
   padding: 20px;
   font-size: 45px;
   border-radius: 10px;
+  margin-top: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect, with no background color, it just makes the h1 pop more since same background color as pages background */
 }
 

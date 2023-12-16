@@ -261,7 +261,9 @@ methods: {
     text-align: center; /* Center the text within project buttons */
     /* display: block; Display buttons as block elements */
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.3); /* Brighter background with the same translucency */
+    /* background-color: rgba(255, 255, 255, 0.3); Brighter background with the same translucency */
+    background: #925ff0;
+  border: 3px solid #a3fda1;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
   }
 
@@ -290,9 +292,11 @@ methods: {
   padding: 10px 20px;
   font-family: 'Gaegu';
   border-radius:16px;
-  background-color: linear-gradient(315deg, rgb(29, 255, 25) 3%, rgba(48, 238, 226, 1) 38%, rgba(60, 132, 206, 1) 68%, rgba(101, 0, 94, 1) 98%); 
+  /* background-color: linear-gradient(315deg, rgb(29, 255, 25) 3%, rgba(48, 238, 226, 1) 38%, rgba(60, 132, 206, 1) 68%, rgba(101, 0, 94, 1) 98%);  */
+  background: #925ff0;
+  border: 3px solid #a3fda1;
   border-radius: 10px;
-  border: 3px solid white;
+  /* border: 3px solid white; */
   cursor:pointer;
   transform: scale(0.8);
   transition: all .2s ease-in-out;
@@ -308,14 +312,16 @@ methods: {
 }
 
 .navBut:hover{
-  background-image: linear-gradient(30deg,#f5b6b3,#6272fc);
+  /* background-image: linear-gradient(30deg,#f5b6b3,#6272fc); */
+  background: #a3fda1;
+  border: 3px solid #925ff0;
   font-size: 0.8rem;
   transform: scale(0.9);
   transition-duration: 1s ease-out;
   box-shadow: #030557 0px 25px 35px -5px;
   border-radius:13px;
-  color:#ffffeb;
-  border:0.1px  #6e0175;
+  color:#2d2d2d;
+  /* border:0.1px  #6e0175; */
   animation-play-state: paused;
 /*   font-family:"Monaco" */
 }
