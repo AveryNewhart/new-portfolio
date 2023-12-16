@@ -125,6 +125,7 @@ const currentSection = ref<number>(0);
     opacity: 0.7;
     cursor: pointer;
     font-size: 35px;
+    color: #925ff0;
   }
 
   .left {
