@@ -16,7 +16,8 @@ library.add(faTwitter, faGithub, faLinkedin)
 </script>
 
 <template>
-  <div class="mainDivFoot">   
+  <div class="mainDivFoot">  
+    <div class="wave-border"></div> 
     <footer class="flex justify-center">
       <div class="p-4 md:flex md:items-center md:justify-between">
         <ul class="flex justify-center flex-wrap items-center text-sm font-medium sm:mt-0">
@@ -39,13 +40,42 @@ library.add(faTwitter, faGithub, faLinkedin)
 <style scoped>
 
 .mainDivFoot {
-  border-top: 5px solid white;
+  /* border-top: 5px solid white; */
+  position: relative;
 }
 
 .icons {
   font-size: 30px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.wave-border {
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.wave-border::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  top: 0;
+  background: linear-gradient(to right, #925ff0, #a3fda1);
+  animation: wave 2s infinite;
+}
+
+@keyframes wave {
+  0%, 100% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
 }
 
 </style>
