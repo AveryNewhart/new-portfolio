@@ -85,13 +85,16 @@ const backends: Backend[] = [
   font-size: 35px;
   font-family: 'Gaegu';
   margin-top: 10px;
-  background-color: rgba(255, 255, 255, 0.3); /* Brighter background with the same translucency */
+  /* background-color: rgba(255, 255, 255, 0.3); Brighter background with the same translucency */
+  background-color: #a3fda1;
+  color: #2d2d2d;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
   border-radius: 10px;
 }
 
 .projectH1 {
-  text-decoration: dashed underline white;
+  /* text-decoration: dashed underline white; */
+  color: #a3fda1;
 }
 
 .mainPD {
@@ -99,14 +102,19 @@ const backends: Backend[] = [
     font-size: 35px;
     font-family: 'Gaegu';
     margin-top: 10px;
+    margin-bottom: 10px;
     height: 150px;
     overflow: scroll;
-    background-color: rgba(255, 255, 255, 0.3); /* Brighter background with the same translucency */
+    /* background-color: rgba(255, 255, 255, 0.3); Brighter background with the same translucency */
+    background-color: #925ff0;
+    color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
   border-radius: 10px;
+  overflow-x: hidden; 
+  
   }
 
-  .mainS {
+.mainS {
   font-weight: normal;
   font-size: 30px;
 }
@@ -115,90 +123,101 @@ const backends: Backend[] = [
   font-weight: normal;
   font-size: 25px;
 }
-  
-  .titleP {
-    font-weight: bold;
-    font-family: 'Gaegu';
-    font-size: 35px;
-    text-decoration: dashed underline white;
-  }
-  
-  .projectContent a {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-  }
-  
-  .mainProjectDivs {
-    margin-top: 25px;
-    min-height: 900px;
-    margin-bottom: 15px
-  }
-  
 
-  .mainHead {
-    display: inline-block; /* This makes the container size to its content */
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-    font-size: 45px;
-    font-family: 'Gaegu';
-    margin-top: 15px;
-  }
-  
-  .projectImage {
-    /* height: 300px;
-    width: 350px;  */
-    border-radius: 10px;
-    border: 2px solid white;
-  }
+.titleP {
+  font-weight: bold;
+  font-family: 'Gaegu';
+  font-size: 35px;
+  color: #a3fda1;
+    /* text-decoration: dashed underline white; */
+}
 
-  .projectLink {
-  /* background-color: linear-gradient(315deg, rgb(29, 255, 25) 3%, rgba(48, 238, 226, 1) 38%, rgba(60, 132, 206, 1) 68%, rgba(101, 0, 94, 1) 98%);  */
-  background-color: rgba(255, 255, 255, 0.3); /* Brighter background with the same translucency */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+.projectContent a {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.mainProjectDivs {
+  margin-top: 25px;
+  min-height: 900px;
+  margin-bottom: 15px
+}
+
+
+.mainHead {
+  display: inline-block; /* This makes the container size to its content */
+  padding: 20px;
+  border: 3px solid #925ff0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  font-size: 45px;
+  font-family: 'Gaegu';
+  margin-top: 15px;
+}
+
+.projectImage {
+  /* height: 300px; */
+  /* width: 450px;  */
   border-radius: 10px;
   border: 2px solid white;
+}
+
+.projectLink {
+  /* background-color: linear-gradient(315deg, rgb(29, 255, 25) 3%, rgba(48, 238, 226, 1) 38%, rgba(60, 132, 206, 1) 68%, rgba(101, 0, 94, 1) 98%);  */
+  /* background-color: rgba(255, 255, 255, 0.3); Brighter background with the same translucency */
+  background: #a3fda1;
+  border: 3px solid #925ff0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  border-radius: 10px;
+  /* border: 2px solid white; */
   font-family: 'Gaegu';
   font-size: 1.5rem;
   padding: 5px;
   margin-top: 20px;
-  transform: scale(.9);
+  /* transform: scale(.9); */
 }
 
 .projectLink:hover {
-  background-image: linear-gradient(30deg,#f5b6b3,#6272fc);
-  transform: scale(0.7);
+  /* background-image: linear-gradient(30deg,#f5b6b3,#6272fc); */
+  background: #925ff0;
+  border: 3px solid #a3fda1;
+  transform: scale(0.95);
   transition-duration: 1s ease-out;
   /* box-shadow: #030557 0px 25px 35px -13px; */
   color:#ffffeb;
-  border:0.1px  #6e0175;
+  /* border:0.1px  #6e0175; */
   -webkit-tap-highlight-color: transparent;
   animation-play-state: paused;
 }
-  
 
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* three projects per row */
+  gap: 20px; /* the gap between projects */
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
   .projectGrid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* three projects per row */
-    gap: 20px; /* the gap between projects */
-    margin-top: 20px;
+    grid-template-columns: 1fr; /* one project per row on mobile */
   }
-  
-  @media (max-width: 768px) {
-    .projectGrid {
-      grid-template-columns: 1fr; /* one project per row on mobile */
-    }
-  }
-  
-  /* Styles for each project */
-  .projectDiv {
-    background-color: transparent; 
-    border: 5px solid white;
-    border-radius: 25px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-  }
+}
+
+/* Styles for each project */
+.projectDiv {
+  background-color: transparent; 
+  /* border: 5px solid white; */
+  border: 5px solid #925ff0;
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.mainPD .mainP .mainS .mainSA {
+  font-size: 45px;
+}
   
   </style>
