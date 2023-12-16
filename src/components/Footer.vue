@@ -21,13 +21,13 @@ library.add(faTwitter, faGithub, faLinkedin)
       <div class="p-4 md:flex md:items-center md:justify-between">
         <ul class="flex justify-center flex-wrap items-center text-sm font-medium sm:mt-0">
           <li class="icons">
-            <a href="https://github.com/AveryNewhart" target="_blank" class="mr-4 icons"><font-awesome-icon :icon="['fab', 'github']" /></a>
+            <a href="https://github.com/AveryNewhart" target="_blank" class="mr-4 icons"><font-awesome-icon :icon="['fab', 'github']" style="color: #925ff0;" /></a>
           </li>
           <li class="icons">
-            <a href="https://www.linkedin.com/in/avery-newhart-0654a9263/" target="_blank" class="mr-4 icons"><font-awesome-icon :icon="['fab', 'linkedin']" /></a>
+            <a href="https://www.linkedin.com/in/avery-newhart-0654a9263/" target="_blank" class="mr-4 icons"><font-awesome-icon :icon="['fab', 'linkedin']" style="color: #925ff0;" /></a>
           </li>
           <li class="icons">
-            <a href="https://twitter.com/CodingWithAvery" target="_blank" class="mr-4 icons"><font-awesome-icon :icon="['fab', 'twitter']" /></a>
+            <a href="https://twitter.com/CodingWithAvery" target="_blank" class="mr-4 icons"><font-awesome-icon :icon="['fab', 'twitter']" style="color: #925ff0;" /></a>
           </li>
         </ul>
       </div>
