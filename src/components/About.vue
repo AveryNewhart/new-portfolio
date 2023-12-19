@@ -30,7 +30,8 @@ h1 {
 
 .whoAmH1 {
   margin-bottom: 50px;
-  font-family: 'Black And White Picture';
+  /* font-family: 'Black And White Picture'; */
+  font-family: 'Gaegu';
   padding-left: 150px;
   padding-right: 150px;
   margin-bottom: 75px;
